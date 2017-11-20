@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Docker in der Praxis</title>
+        <link rel="stylesheet" href="./css/reveal.css">
+        <link rel="stylesheet" href="./css/theme/simple.css" id="theme">
+        <link rel="stylesheet" href="./css/highlight/zenburn.css">
+        <link rel="stylesheet" href="./css/print/paper.css" type="text/css" media="print">
+          <link rel="stylesheet" href="./assets/plugin/asciinema/asciinema-player.css">
+      <style type="text/css">
+        .asciinema-player .control-bar {
+          display: none;
+        }
+        .asciinema-player:hover .control-bar {
+          display: block;
+        }
+        .reveal section img { 
+          background: none; 
+          border: none;
+          box-shadow: none; 
+      }
+      </style>
+		<script>
+		  document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
+		  ':35729/livereload.js?snipver=1"></' + 'script>')
+		</script>
+    </head>
+    <body>
+
+        <div class="reveal">
+            <div class="slides"><section ><section data-markdown><script type="text/template"># Docker in der Praxis
+
+<img src="images/docker_logo.png" style="height: 200px" />
+</script></section><section data-markdown><script type="text/template">
+## Über mich
+
+<div style="position: absolute;width:50%;left:0%;text-align:left" >
+    <strong>Florian Pfitzer</strong><br />
+    <span style="font-size: 0.4em;display:block;">florian.pfitzer@to.com</span><br />
+    <ul style="font-size: 0.5em;margin-top: -1em">
+        <li>Thinking Objects GmbH</li>
+        <li>Pentester</li>
+        <li>20% Software Entwicklung</li>
+        <li>Student an der HFT bis 2014</li>
+    </ul>
+</div>
+<div style="position: absolute;width:50%;left:50%">
+    <img src="images/foto.jpeg" style="width: 300px" />
+</div>
+</script></section><section data-markdown><script type="text/template">
+## Was sind Container?
+
+<img src="images/container.jpg" style="height: 500px" />
+
+<aside class="notes"><ul>
+<li>Behälter die einfach zu transportieren sind.</li>
+<li>Eine VM für eine Anwendung mit allen Abhängigkeiten und Konfigurationsdateien.</li>
+<li>Genau definiertes und wiederverwendbarse Format.</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
+## Container-Technologien
+
+* Kernel-Patches
+    * Linux-VServer
+    * OpenVZ
+* Linux-Kernel (Kernel Namespaces)
+    * LXC/LXD
+    * Docker
+    * rkt
+
+<aside class="notes"><ul>
+<li>Patches doof, weil man immer für jede neue Kernelversion den Patch braucht  (z.B. OpenVZ ist noch bei Linux Kernel 2.6).</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
+<div style="position: absolute;width:50%;left:0%" >
+    <h2>VM</h2>
+    <img src="images/arch_vm.png" style="width: 400px" />
+</div>
+<div style="position: absolute;width:50%;left:50%" class="fragment">
+    <h2>Container</h2>
+    <img src="images/arch_container.png" style="width: 400px" />
+</div>
+
+<aside class="notes"><ul>
+<li>Vorteile:<ul>
+<li>Leichtgewichtiger</li>
+<li>Viele bestehende Images</li>
+<li>Mehr Container pro Host</li>
+<li>Abhängigkeiten mit verschiedenen Versionen kein Problem mehr</li>
+<li>OS unabhängig</li>
+</ul>
+</li>
+<li>Nachteile<ul>
+<li>Weniger isolation</li>
+</ul>
+</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
+<img src="images/containers-vms-together.png" style="width: 400px" />
+
+<aside class="notes"><ul>
+<li>Keine entweder oder Frage. Meistens einfach beides</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
+## Warum brauch ich Container?
+
+<div style="position: relative;width:300px;height: 400px;margin:0 auto">
+    <img src="images/worksonmymachine1.png" class="fragment current-visible" style="width: 300px;position: absolute;top:0;left:0"/>
+    <img src="images/worksonmymachine2.png" class="fragment current-visible" style="width: 300px; position:absolute;top:0;left:0;"/>
+</div>
+
+<aside class="notes"><ul>
+<li>Überall die gleiche Umgebung.</li>
+<li>Ich kann nicht vergessen eine Abhänigkeit zu installieren, die zufälligerweise auf der Entwicklungs VM war.</li>
+</ul>
+</aside></script></section></section><section  data-markdown><script type="text/template">
+## Was wir mit Docker machen
+
+* auralis Mandatenfähigkeit
+    * Monolotith -> "Miroservice" Architektur
+* auralis Entwicklungsumgebung
+
+</script></section><section ><section data-markdown><script type="text/template">
+
+###  Was macht Docker besonders?
+
+</script></section><section data-markdown><script type="text/template">
+## Images
+
+<img src="images/public_images.png" />
+
+</script></section><section data-markdown><script type="text/template">
+<asciinema-player src="ascii/docker_pull.json" preload="true" speed="2"></asciinema-player>
+</script></section><section data-markdown><script type="text/template">
+<asciinema-player src="ascii/docker_run.json" preload="true" speed="2"></asciinema-player>
+
+</script></section><section data-markdown><script type="text/template">
+<img src="images/sharing-layers.jpg" style="width: 600px" />
+</script></section><section data-markdown><script type="text/template">
+### Tags
+
+<img src="images/hub_nginx.png" />
+
+<aside class="notes"><ul>
+<li>Es gibt für die meisten Images mehrere Tags</li>
+<li>Wenn nix angegegeben nimmt er latest</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
+<asciinema-player src="ascii/docker_pull_tag.json" preload="true" speed="2"></asciinema-player>
+</script></section><section data-markdown><script type="text/template">
+## Eigene Images
+
+```
+FROM debian:stretch
+
+RUN apt-get update && apt-get install -y nginx
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
+```
+</script></section><section data-markdown><script type="text/template">
+<asciinema-player src="ascii/docker_build.json" preload="true" speed="1" idle-time-limit="0.1"></asciinema-player>
+</script></section><section data-markdown><script type="text/template">
+<asciinema-player src="ascii/docker_build_run.json" preload="true" speed="1" idle-time-limit="0.1"></asciinema-player>
+
+<aside class="notes"><ul>
+<li>Build once. Run anywhere</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
+<asciinema-player src="ascii/docker_build_run2.json" preload="true" speed="1" idle-time-limit="0.1"></asciinema-player>
+</script></section><section data-markdown><script type="text/template">
+## Ökosystem
+</script></section><section data-markdown><script type="text/template">
+<img src="images/Docker-ecosystem-8.6.1.png" style="width: 600px" />
+
+<aside class="notes"><ul>
+<li>Tools für Monitoring</li>
+<li>Tools für Container Verwaltung über mehrere Hosts (Orchestration)</li>
+<li>Tools für Netzwerk (Verschiedene Netzwerke über mehrere Hosts)</li>
+<li>Betriebssysteme nur für Container</li>
+<li>Dateiesysteme für Container über mehrere Hosts hinweg</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
+## Docker-Compose
+
+* Abhänigkeiten zwischen Containern
+* Container gemeinsam starten und stoppen
+</script></section><section data-markdown><script type="text/template">
+```yaml
+version: '3'
+
+services:
+   db:
+     image: mysql:5.7
+     volumes:
+       - db_data:/var/lib/mysql
+     restart: always
+     environment:
+       MYSQL_ROOT_PASSWORD: geheim
+       MYSQL_DATABASE: wordpress
+       MYSQL_USER: wordpress
+       MYSQL_PASSWORD: wordpress
+
+   wordpress:
+     depends_on:
+       - db
+     image: wordpress:latest
+     ports:
+       - "8000:80"
+     restart: always
+     environment:
+       WORDPRESS_DB_HOST: db:3306
+       WORDPRESS_DB_USER: wordpress
+       WORDPRESS_DB_PASSWORD: wordpress
+volumes:
+    db_data:
+```
+</script></section><section data-markdown><script type="text/template">
+
+<asciinema-player src="ascii/docker_compose.json" preload="true" speed="4" idle-time-limit="0.1"></asciinema-player>
+</script></section><section data-markdown><script type="text/template">
+<img src="images/Bildschirmfoto 2017-11-16 um 13.31.29.png" style="max-width: 80%"/>
+</script></section></section><section ><section data-markdown><script type="text/template">
+## Best Practices
+</script></section><section data-markdown><script type="text/template">
+### Dockerfiles
+
+* Benutzen!
+* Kein `:latest` benutzen
+* `RUN` kombinieren
+* Minimale Base-Images
+
+<aside class="notes"><ul>
+<li>Wiederholbare Builds (Das Dockerfile ergibt immer das gleiche Image)</li>
+<li>RUN: Weniger Layer (kleinere Images)</li>
+<li>Kleinere Container wenn möglich</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
+### Updates
+
+* Kein `apt-get upgrade`!
+* Container wegwerfen und neu bauen
+
+</script></section><section data-markdown><script type="text/template">
+### Volumes
+
+* Daten vom Host in den Container bringen
+* Für persitente Daten nutzen!
+
+<aside class="notes"><ul>
+<li>Alles was nicht in Volumes ist geht verloren, wenn der Container gelöscht wird!</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
+<asciinema-player src="ascii/docker_volume.json" preload="true" speed="1" idle-time-limit="0.1"></asciinema-player>
+</script></section><section data-markdown><script type="text/template">
+### Automatisieren!
+
+* Builds automatisieren
+* Deploy automatisieren
+
+<aside class="notes"><ul>
+<li>Auch wenns nur ein Cronjob ist oder ein Makefile</li>
+<li>Es macht den Umgang mit Containern einfacher</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
+### Ausprobieren!
+
+[www.docker.com/get-docker](https://www.docker.com/get-docker)
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABfCAMAAACX18pVAAAC3FBMVEVHcEyzADO5AEa/AECoADH/AP+qAFX/AICpADDMADOqADmtADG2AEm/AECpADCoADC2ADetADOqADCqADKoADCoADCvADOrADKoADCvAECoADGuADqqAFWpADGqADaqAECoADGpADGpADCpADCwADWqADGqADmpADCpADGpADCpADCoADCpADGxADupADGqADGpADGsADOpADGzADOxADepADCpADGoADGpADCpADGoADGqADStADeoADCoADGqADGpADGpADGqADCoADGpADGpADGpADGuADapADOqADWtADW0ADyoADGpADGqADCqADSoADKqADKoADGpADGpADGpADKoADKpADKpADCpADKpADCpADCoADCoADCpADCpADCpADGoADCoADGoADCpADCqADKrADGpADGqADGoADCqADOoADKpADGqADmqADOsADWpADCqADGpADCpADGsADOpADGoADCpADGqADKpADGqADGpADCpADCoADGoADCqADGpADGqADKqADGpADCoADGpADKqADKpADGqADGoADKpADGqADOqADKoADGpADGoADCoADGpADCoADSrADKoADCpADGoADGpADCpADGoADGpADGrADKxADGsADGoADGpADGpADKpADGpADGoADGoADKpADCoADCrADCqADKqADOoADGpADGpADCpADKrADGpADGoADCpADOpADGpADGoADGoADGoADGpADGpADGvADioADGqADGpADCpADGqADGpADKpADGqADGoADCpADKpADCpADGpADGoADGpADGpADCpADGpADCpADGpADCrADSpADKpADCsADSqADKqADWpADGqADOoADCpADSpADKoADKpADGpADKoADGpADCpADGpADGpADGqADKoADGrADOpADCpADGpADGuADKoADGoADGzADCuADaoADGpADGpADCoADOoADCoADGoADGoADAL8t2EAAAA83RSTlMACgsE9wEDAv4FCR8HCPn9DhlFYPTdIz01EPEWBuohDMXwvvMdchKj+/iks6cN9jnHN80UF66gnJ7hticc7uJdiOxv1vx8cyZQGCIRy1laNjhC69WXhXBlelbe6ehV7Zq6ivpkX1dD0CqqD2d9Gzwr5GnT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)
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF8AAABfCAMAAAC5kuvHAAADAFBMVEVHcEzeSRT/ZjPeSRToVhjdSRTeSRXeSBT////dSBTdSBTeSBT/gIDfSRXeSRXfSRbfSxfdSRTeSBThSRj/gED/VVXdSRXdSRXeSBTeSRXdSRXeSRXeSBTdSBXeSBXdVSLeShTfTBreSRXdSBXfSBTgSxTfShXeSRXeSBXdSBXgSRXdSRTeSBXgShbfShbiTh3dSRXeSBXfShXzVSTeSRXfShbeSRXdSRXeSRTdSBbfThjeSBXnShjeSBXfSBTfShXhSRjfShXfSRbeSBTeSBXdSBTeSRTfTRreSRXeSBXhSx7eSBXdSxTfTBjeSRbdSRXkUxvoURfeShTdSRTtSSTdSBXhSBfeSBXdSRbeSBTdSBTeSRXeSRTeSRXjTBXeShbdSBTeSBTeSRXgSBbdSRTdSBXdShTdSRbdSRTeSBTgSxbfSRXdShfeSRXeSRbeShTeSxXdSRXiSxfdSRXdSBT////0xLPfVyfdShb87+veTx3eThz76uX549v54NjsmXz99vPhXjDvrZXgWSreTRvrlXfiZjrdSRX1zL320cTjakD99PLdTRn65+D429DjbUPeUB/ldU7iZTnhYDPzwK7429H+/v7qknP88u/+/f31ybn31sviZDf0xbX9+ffpjGvzwrH88Oz++fjsmn3yvKrtoIbup47wsJr88/Dme1bhYTTmeFLoh2b31cn++/reTx766OL99/T0xrbog1/upIr99/Xja0HfVCTzv6zldE3dSxjlc0rpjW3xtaHmelXfViXxuKPxs57yu6jtnoL77Of+/Pv0x7jqkXLrlHbpimnxtqH77unldk/uqI/vqZH++vn88e377ejvq5Ppimf43NLoh2Xwsp3318ztoIXyuaXnfln1zsD76ePhXjHohWHfUiHyvavohmPpjGz42c/wr5jzv63eUiDnf1rjaD3ngl3kbkT+/PzgWy3kcEfmeVPvqpL53tXngFz2zsHqj2/9+Pb54Nf32M320sX54dnsm37wsJnhYjb1y7z0yLjsnIDto4l8v/OBAAAAdHRSTlMA/AX9CszP/gH78O0CYMFGTvLYNAQD6rbA94i5ytupD0wdk+lYMVZsg/NIluY4jhqQ9RgHnGfo68hpH6sU0H9uKjB24I7jfCd7xxGSS0BdxBIWZPkOtUJVW4pxeaTSJUWYsaBRvcVygdXlOp0thZqjPacsrnocTBMAAAZjSURBVHherdgFnxRnEgbw2mWV3WWXRRc43AMESzggQIBgsUtykYPY5dz1qZlVdxfU3d3dXeLu7n7uktlpm+nq7umZ/L9A96/eequebgpJwrjUAb27xqYPGRTV9qfpsV17D3i4VwJ9TWaMHT8GZn26X/cQRewXs6fB2tQuN1IEbp4TByexk3pQeO7s0hahaD3wBnJv5C0ZCNWIYW6f0GFSW7iRNDaZXBgaB7di21Go2s+Oh3utBnagkPSahfC0uZZC0DMJ4eqYSo7GtkL4olLIwY8RmfvJTvJ34Ubtwsov//bYazAabjf3roEbJ3LZ54ltMLqJLE2EGx/vZr8FZTCaQhaugxvZT7FqvxdGKSRKddc5f2Ld4zBKvI0E13aEK2dY9ywCDLlTmGhtQiqKtxaKJazLRaCu5iYaCHvlZceXrj7vK3buC8+vXAa8xLr5CDKTgkyOgo0DG3dxgP212Mu6YgRJDNqbCXYzbet2NvkcyGfVii0I1pkC3AUbJ9jsFeBwIfst/ghm3yGDO5JgobEZwL/Z7AOg+hz7rH4bguvvJt0vYeFf+c9mAuWfsEnhh0DjJc/SJQU7IZpOmh6tIdu8ifkSgONstugj2EqKIdVMyAoWM/MmL1BSyALPYfh8CtmPSBEzBqKV3OIUgPXqUS4KKNWiKk9l7oJtEA0ZRX4pED26QxmPnwE5ufznVZePFh1BZkn1MU8hG634DKK+5NcZkuZNrKivAE5sa4TuyB/ms0HWa5B0UvJCPAQ761izEGZ781iXXwpB1EjyuR+SDaz7QnyBdaxbD8kc8nkQgrlrWPMiZBd3sGq32ETfpK/cIJbnAqvOH4OVZxaw6pBYIF907w/BVtZchLW1rBF7qCcRiZFkD6suwI6+BN6DwJcl0mF28Amt9bywc3C1thEaYTaBKEYq/0JW7YW9lay6DLPEaOoHgbZQ6uHk7/pGEMygvjCrfZIV4miRj/iTkzBLC8hsh1fVZdXvawQO1ChFzYETr3YJXobZFPo1VDkb/e28q0krqwfOKlmxD2a/onugOsWKNeXAUvYpgLPHWLEKZuNJi1WbWfNOppL+HoWzt1ixFGZdKQ6KqoD04WWfIjib+8fKJXs88w6dkabgD+kbUKxh3f+AlhXyBiL0IE1TT5cN3gVe5a8cQYTS9fFQw7r/Ai0T4iQiFEfdoFjFugPYwj5b4Kxhze6aRVnnXq2TLnAb+gEUy1YYh/lZ4co4fGdUweweegSqAlacO4jSOmHtyTayYh3MutNoaF73D9s9JdqlqYKzv7LiHzDrTVOgO1l2xvPuVgBvL1ZmlhdOlrGqCWYDKA1mtdpRrIWTp7UVnw2zVJoBwXJW5DrdgJwsVrwJQS+KTpTCk5RNHGLSZphlJBB1kwqkZcMdB2CnWV/UmWL7E3WB4Aqr/lIKa7XbWfVPCCYSUSoEzXo0Ow1r8/QMXQTBb4goJhGCYtacynS8WvLywohRlvH8/ausWZINyc43WZObbR3Q74LkGLN9uFyWz7rnAMtv1B4ZkLzCmq0w8RavYN1ySAbFUIvukLyRb1zca08froCmoXg/G9TLBfwe+d0KUdFVPduX7GY+d/zsM03lR18ve+kqB8gtgehe8ktOh+hj/0ue9edkQeGFfQUvzqurhmgCqW6HrCmLmfNqgerFbFZT8D7s3Eeq9lMhK5rPfMJ/1ib1cwGgAlbSk0P4s5dzyAPgZTbLOwg0vLeaa5Y3QJRCuuifwEojkJnPJuebgZXKELkCQVwHMrgNNhay2RXgIqs2wCR+KAV4ANY+ffxJDtaA7CzWHEWw0RRoZGvYKH1rXeAjdgFlrJCiQ9IdFKQ/7GVWX356edX8vHcq5xU/t0WZzao8BEmL9N828B+b/5/DyGxUHFw5zbrtCNAtmgQPJcGND1h3CUYdx5HoZxlwoeIFVj1VCoNB7chCz0S44K1jv01NMPj2w2QpJR4uzPUsaGmechi06ks2bk+EGx+uf37D5oqAt+9PtgaPQCTa3ksOhiYhfH36kaNx3RCub/WiEEQPQ1jiu7Sn0KR1hHvXD6aQ3XxNK7gTdcvd5Ea7WLgxazK5lHzfBIQq9vsJFIaes0LrmsEUrna9xzh1/PB+FInotN/2sW6ZB25tTxFL+N2kR6bFI1D81N8PuJG+PjH9+k4f/vPxnTp36j76pun9J8dQaP4P/nHOVj/dJnwAAAAASUVORK5CYII=)
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAACqVBMVEVHcEz////////+/v7////+/v7//////////////////////////////////////////////////////////////////////////v///////////////////////////////////////////v7///////////////+czSqTInkmJXf1yXn+/v76/PTF4YOBgLDAfrGezi/+/fvC4H3vqSns9dfp9NHQz+HX1uXnz+L77M/r1ub87tb7+/z09Ph6eau8d60uLXyXKn765L39/f39+/y6cqm5uNP59Pjjxtz+/f2WKH0pKHnh8MDHx9zh8L/+/v3ct9PExNquWZqx11hVVJT8/P0sK3v9/P3vqy7+/fr65b79/vvhwtrMzN91dKifzjKgzzQwL32VKHzl8sjn88z9+fX8/Pz9/fv76suUJXvgwNl0c6jGxtu4bqfjxdz0wmn0w2pwcKXB33qVJntxcabj8MLA33nj8cPhw9q4b6fC4HyfzjD76sz+/fz++vPgwdn8/fnwsT35+fv9/f6p1Ej+/Pn4+/ChzzXwrTSdzS37/fj58/grKnrf7rr38PaVJ3zb7LO+vtb658P87tfo883evdft9trG4YX1ynzl8sdLSo6t1U5MS4+t1lCoTZOpT5T9+/k/PoefO4j9/vz8+fuiQYvz8/hEQ4rw8PXatNH5/PM1NICaMYK1tdGpqcnUqMrr1+bz8vf3+/Dv7/UyMX/n0OKZL4D43q343a3+/f7X1+bq1OX79/r39/ro0OL9+fDe7riCgbHW1uX53q2yss+xX53Ysc/q1eXAgLK02F6wXZy02F9dXJnq9NPT0uNbWpj879fs2ujb2ui+e69+fa3////vpyTzv2D65sHzvVr77tTvqSr66MfyuE7vqizyuFDzvl777NCNfF5SAAAAKHRSTlMAX/77/P1ROEBY+mDI0GRrUlkOgXeH+3z93aLfXVxj4gwQ/f2c4eCp3AI/LwAABR1JREFUeF60zVsKgCAUhGEDAcUnixaQ7X87x+63lSQYzIsEEfO/DTB86nPOK3ouaM83RLSlG+Mq2rONZU+KJRsxQuEZVKXKBhSiAYVpQGEaUJgGFKYBhWT8VzpTqA1ynVNui6njGcMsfVN61K+IuTmv49eawjiO49cBlnPvfpI2Qy24Z53d7m0rQJvNMBebpFaNilKRqSbcEZatrTbNTLaSEFRKkCglFCEVwWdV+8lfwnHP03fffXb3nN33T+f89OpTT/U8sLQxQDbD0kIbUj2lAR/t5rvbIHePhl2A/2bnlOxIdVJ3phVnM+YnZZB6L6yhGW0dnq4pIsIGI6xER8g4nyyIsBIdYYMRUopC2GCElegIG4yQUhzS246+fgEYkR4P4sG94pbU+GjJREGyB7Fr+yyXsMIIG0UgvaLYkGzOGA9nh3TeP6cVRnhHuqlrNkhnK3ytMMIG0NYVGQmMPvg1SmGEjaFAiYYExun+PXoLI2zse3UyUCIhgZFJZrTCCBunvIZAiYLkjSQphLDh/Vc67MhA3giVGlEIYSNU2qyIbwxWNMKGUXwLsgRikKIQNkTBUsu9vV0MUiYj2RwZRunB/JIZ71eoFoIVQbRxzJvcFvXiY+OtQkgZM8gvMhTyTRQ2jn9VCCmjBvlBhkK+nxCFjCP7FcIK/gTIdWiDkANb9xqFDU8jrOBd7fj4xEW8VgYjVaKQoRFWhoHG2okR4Kk2GBGFDEG00hIqKThoHIGDem0wIgoZGuEtKZQ5QOVq1JNBiCjaCJDu1HSNjcIfTqXew004lRVxfEqnHwGfv6Sna1seEUWMELHkxhIVsTgsBYgooXEpNLzbGwr1cghOmeuuiv2r3HWXAS/WFexmlVLEsHX1BpyEGV8K7NhdZUmUwMjaCVHYsCsl89DcEAnJ5lC5PI+scHDtSiTk8CHMXRAjxWawYje0cmdToZ4NwlkTj5fH/rU2Hl/p4Pn6gt3ShihRj3BpIuIRFkOUELlcN12/f6LnSV3dR7ilcBJxfPhbe/292BSFYRzXAFyJaSgVl2PvXZPJuJtTByWFTnB0EDMiFIVyaaZGTc1UrqhGUrlB5EaKSEWphHLzrH/H9ji7d9rPXvtXre/NblerT6taq/XG8ccEj1biongYzRDlFDpRQWdP4vDN9DuBXQBGdiN2zsVJelu6gq4RyQxVDFGDCPDwOEaImKKIGaoQ8RvR29RYTm9LfHBehQiNLTRUMUQNbuTdcnonv0YS+xUiZqhCpMTAgfG0KeQUQcwoUL4T8RrfMuSPVyHyy2dQ+UzEZxz5miEr530KkU80vAoRn3FsIkPi/T6FCA2vshP9bs64ZEZkiPMrgwRjNHxtB050vcZqxKsM7gOjVaODKWKsRkQxI6mcT770QUWNPKIKDZybq0Q6d6mooYgqNG5PViMRFTUUUWVwIzVcHYTKGzEEUWWJRi2EygsxBFFlnkYthIoYiqhCox5C5YEYgqiySKMWwp6LoUimHMqUBdcMUUMRVZogaigiSjvk5TRevY+qELY0j8WFdju518etbg2EZ/BOw52ooogaDRFVFBGjHaKKIma0Q1RRxIx2iCqKmNEUwXSufoLe9WG9DOldGJYgmZvMhUqkvAwprQrZtrGgHevx+8fp/z39hzwb/vycwtho0Yo9ZYb/PfZkZlyavYq1Wz1L2iqBDSpXZoIYqqgRTqHBOSqcYkY4xYxwCg3OBgEVM0Iqs49phFVCG1RohFZohFaaG38B7YfVi8fxYPMAAAAASUVORK5CYII=)
+![](data:image/png;base64,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)
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAMAAAC5zwKfAAACNFBMVEVHcEwArvAAru8ArfAArvAAru8Aru8ArfAArvEArfAAre8ArvAArfAAru8Aru8ArvIAru8ArvAArfAArfAAr/AAr/EAsfIAr+8Ar/AArfAAr/AArfAAsfQAre8ArvAAru8ArvAArvEArfAArvAAv/8Are8ArfAA//8AsPEAru8Atv8ArvAArvAAsfQAtv8Auf8Ar/AArfYArvAArvAAsvAArvMAr/EArvIAru8Ar+8Ar/AAr/AArfEAr/AAre8As/EAru8ArvAArvAArfAAru8ArvAAsf8ArvAArfAAre8AtvMArfAArvAArvAAre8Ar/EAsPEArvAAr/AAre8ArfAArfAAu/8ArfAArfAArvAArfUArvAArvIAru8As/YAr+8AtfcAr/AAr+8Aru8ArfAAsPIAsPEAs/IAsvMArfEAr/AAse8ArvEArvAArvEArvAAru8AsPAAru8AsfUArvAArfAArfAAtfQAru8Aru8AsPQA//8Axv8Aru8ArfAArvAAre8A//8Aru8ArvAArfAArvMAuPEAru8ArvAArfAAsPYArfAAtPAArvAAre8AzP8ArvQAr/EArvAArvAAre8ArvIAsfIArfAAv/8ArvAArvAArvAArvAArfAAru8Are8ArvAArvAAru8Ar/EAru8As/8AsPIArvAArvAArfIAr/AAs/cAsPMArfAAr+8AsfEArvAAv/8Ar/EArvIAsfMAre8ArvEArvMArfEArfEAr/EAre8wA6NcAAAAu3RSTlMA+7Gv/rO0/Vv5sq780LBf0tb6yyNcO2BjZ2ZkLtRo09lezs0E0dcBN9UH68cXDgtGHEJ0ISldOWEwaVM1dvMlYsrPjJC6Ddj39hXdZcyDf0rvlaLb6g8ytegZRU/CG1AfVkDivj1aKCttMzFr+Eh4cVdSGt/auxiB8i0DCaSli1ECo+zIFhL1dZkdehGY9AUvb6eIxRMnrAy2l+m/7fHkuZ7jfOYKTZ13TkMeKlRzJJoIWSY+cG4sOGo2XeBMXQAAAjtJREFUeF5joBrQCy9cHKwTSgWTlspY5y+PjdwNBuyUmKRlGmPcmbKIBWIUJQaq2AdMDHItYYcaQoGBjSYGOS4zQxihuikwUN3QSNKZSZATqo0SA2cAsZGAJ1Q9BQaqiETL1XPz2rEC2RxAleQbqGdp3dFb5s0DVUG+gerFqeJ+dS3aMCnyDdRKD8h04dL0gApRauCcZIzkRJmBwHROoYGjBrJTbOCogTwEVLARNHDUQEaKDRw1UIhiA0cN5KTYwFEDcwmoiBgIA9kZOT3a7eYFztWePZ/BNn+FrfG6gq3bMnN2WklKSUtYiPObiaZtKkxca10UH7PMBmigl5i5hk1W9oSqDNNp9iImCV1xUbpeU3vC3PRrtPqrGYYayMsziF5llLQlVcx8xy6gvyxltmeYpm9eD/TZakOg18JINI9gsuEGqkkrVVBQcHdXU1MTFBTU1JSVlZWXlxcQUFVV5eXldXJSUlJSVlb29RUWFnZ0JMpAq93EA6IMlBv0BkpS00BmWhgoNfIM9KGmgXy0MFCaePNYBsZAiUFtIBMtDHQY9AZaDHoDxalpIBctDOQfeQYqkmJgM6EOOKkGMrSai/oHT4nEZ6AZOYNp+jINxrNcvRkpNRBz2NDAyplZoA/FQFEKDISBcjHFilqdUAoNxARulhpAMt6TUgMxx3STpCdP562k0EBMoCvG7zdJOJBCAzFBmwaHf5OONsUGYk4nJHYvjF1CNQMRKbjIdkNKMjuGgRSCjWtWFgQtCAEAk6OO1j3PIiEAAAAASUVORK5CYII=)
+![](data:image/png;base64,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)
+
+</script></section></section></div>
+        </div>
+
+        <script src="./lib/js/head.min.js"></script>
+        <script src="./js/reveal.js"></script>
+
+        <script>
+            function extend() {
+              var target = {};
+              for (var i = 0; i < arguments.length; i++) {
+                var source = arguments[i];
+                for (var key in source) {
+                  if (source.hasOwnProperty(key)) {
+                    target[key] = source[key];
+                  }
+                }
+              }
+              return target;
+            }
+
+            // Optional libraries used to extend on reveal.js
+            var deps = [
+              { src: './lib/js/classList.js', condition: function() { return !document.body.classList; } },
+              { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+              { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+              { src: './plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+              { src: './plugin/zoom-js/zoom.js', async: true },
+              { src: './plugin/notes/notes.js', async: true },
+              { src: './plugin/math/math.js', async: true },
+              { src: './assets/plugin/asciinema/asciinema-player.js' },
+
+            ];
+
+            // default options to init reveal.js
+            var defaultOptions = {
+              controls: true,
+              progress: true,
+              history: true,
+              center: true,
+              transition: 'default', // none/fade/slide/convex/concave/zoom
+              dependencies: deps
+            };
+
+            // options from URL query string
+            var queryOptions = Reveal.getQueryHash() || {};
+
+            var options = {};
+            options = extend(defaultOptions, options, queryOptions);
+        </script>
+
+
+        <script>
+            Reveal.initialize(options);
+
+            Reveal.addEventListener( 'slidechanged', function( event ) {
+              var casts = event.currentSlide.getElementsByTagName('asciinema-player');
+              for (var i = 0; i < casts.length; i++) {
+                  casts[i].currentTime = 0;
+                  casts[i].play();
+              }
+            });
+        </script>
+    </body>
+</html>
