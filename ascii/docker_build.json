@@ -1,0 +1,1190 @@
+{
+  "version": 1,
+  "width": 230,
+  "height": 20,
+  "duration": 39.549584,
+  "command": "/bin/bash",
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/usr/local/bin/fish"
+  },
+  "stdout": [
+    [
+      0.044097,
+      "bash-3.2$ "
+    ],
+    [
+      4.327548,
+      "d"
+    ],
+    [
+      0.101426,
+      "o"
+    ],
+    [
+      0.151378,
+      "c"
+    ],
+    [
+      0.031911,
+      "k"
+    ],
+    [
+      0.096121,
+      "e"
+    ],
+    [
+      0.094257,
+      "r"
+    ],
+    [
+      0.046761,
+      " "
+    ],
+    [
+      0.154763,
+      "b"
+    ],
+    [
+      0.11402,
+      "u"
+    ],
+    [
+      0.047378,
+      "i"
+    ],
+    [
+      0.302767,
+      "l"
+    ],
+    [
+      0.329701,
+      "d"
+    ],
+    [
+      0.135842,
+      " "
+    ],
+    [
+      0.255875,
+      "-"
+    ],
+    [
+      0.144682,
+      "t"
+    ],
+    [
+      1.110963,
+      " "
+    ],
+    [
+      0.647549,
+      "n"
+    ],
+    [
+      0.105805,
+      "g"
+    ],
+    [
+      0.080916,
+      "i"
+    ],
+    [
+      0.05424,
+      "n"
+    ],
+    [
+      0.12836,
+      "x"
+    ],
+    [
+      0.15945,
+      "_"
+    ],
+    [
+      0.128244,
+      "t"
+    ],
+    [
+      0.096245,
+      "e"
+    ],
+    [
+      0.056062,
+      "s"
+    ],
+    [
+      0.079778,
+      "t"
+    ],
+    [
+      0.088294,
+      " "
+    ],
+    [
+      0.32756,
+      "."
+    ],
+    [
+      0.104199,
+      "\r\n"
+    ],
+    [
+      0.216203,
+      "Sending build context to Docker daemon  2.048kB\r\r\r\n"
+    ],
+    [
+      0.076056,
+      "Step 1/4 : FROM debian\r\n"
+    ],
+    [
+      0.00047,
+      " ---> 874e27b628fd\r\n"
+    ],
+    [
+      0.000125,
+      "Step 2/4 : RUN apt-get update && apt-get install -y nginx\r\n"
+    ],
+    [
+      0.068995,
+      " ---> Running in d1e9cedf2f7b\r\n"
+    ],
+    [
+      0.322231,
+      "Get:1 http://security.debian.org stretch/updates InRelease [62.9 kB]\r\n"
+    ],
+    [
+      0.036259,
+      "Ign:2 http://deb.debian.org/debian stretch InRelease\r\n"
+    ],
+    [
+      0.012688,
+      "Get:3 http://deb.debian.org/debian stretch-updates InRelease [91.0 kB]\r\n"
+    ],
+    [
+      0.04188,
+      "Get:4 http://deb.debian.org/debian stretch Release [118 kB]\r\n"
+    ],
+    [
+      0.040786,
+      "Get:5 http://deb.debian.org/debian stretch Release.gpg [2479 B]\r\n"
+    ],
+    [
+      0.102468,
+      "Get:6 http://security.debian.org stretch/updates/main amd64 Packages [227 kB]\r\n"
+    ],
+    [
+      0.152606,
+      "Get:7 http://deb.debian.org/debian stretch-updates/main amd64 Packages [6499 B]\r\n"
+    ],
+    [
+      0.12192,
+      "Get:8 http://deb.debian.org/debian stretch/main amd64 Packages [9500 kB]\r\n"
+    ],
+    [
+      4.748995,
+      "Fetched 10.0 MB in 5s (1888 kB/s)\r\nReading package lists..."
+    ],
+    [
+      0.709845,
+      "\r\n"
+    ],
+    [
+      0.057108,
+      "Reading package lists..."
+    ],
+    [
+      0.654174,
+      "\r\n"
+    ],
+    [
+      0.042573,
+      "Building dependency tree..."
+    ],
+    [
+      0.13738,
+      "\r\nReading state information...\r\n"
+    ],
+    [
+      0.226299,
+      "The following additional packages will be installed:\r\n"
+    ],
+    [
+      0.000644,
+      "  fontconfig-config fonts-dejavu-core geoip-database libbsd0 libexpat1\r\n"
+    ],
+    [
+      0.000483,
+      "  libfontconfig1 libfreetype6 libgd3 libgeoip1 libicu57 libjbig0\r\n"
+    ],
+    [
+      0.000641,
+      "  libjpeg62-turbo libnginx-mod-http-auth-pam libnginx-mod-http-dav-ext\r\n  libnginx-mod-http-echo libnginx-mod-http-geoip\r\n  libnginx-mod-http-image-filter libnginx-mod-http-subs-filter\r\n  libnginx-mod-http-upstream-fair libnginx-mod-http-xslt-filter\r\n"
+    ],
+    [
+      0.000555,
+      "  libnginx-mod-mail libnginx-mod-stream libpng16-16 libssl1.1 libtiff5\r\n  libwebp6 libx11-6 libx11-data libxau6 libxcb1 libxdmcp6 libxml2 libxpm4\r\n"
+    ],
+    [
+      0.002321,
+      "  libxslt1.1 nginx-common nginx-full sgml-base ucf xml-core\r\n"
+    ],
+    [
+      0.002977,
+      "Suggested packages:\r\n  libgd-tools geoip-bin fcgiwrap nginx-doc ssl-cert sgml-base-doc debhelper\r\n"
+    ],
+    [
+      0.552532,
+      "The following NEW packages will be installed:\r\n"
+    ],
+    [
+      0.000726,
+      "  fontconfig-config fonts-dejavu-core geoip-database libbsd0 libexpat1\r\n"
+    ],
+    [
+      0.000735,
+      "  libfontconfig1 libfreetype6 libgd3 libgeoip1 libicu57 libjbig0\r\n  libjpeg62-turbo libnginx-mod-http-auth-pam libnginx-mod-http-dav-ext\r\n  libnginx-mod-http-echo libnginx-mod-http-geoip\r\n  libnginx-mod-http-image-filter libnginx-mod-http-subs-filter\r\n  libnginx-mod-http-upstream-fair libnginx-mod-http-xslt-filter\r\n"
+    ],
+    [
+      0.000835,
+      "  libnginx-mod-mail libnginx-mod-stream libpng16-16 libssl1.1 libtiff5\r\n  libwebp6 libx11-6 libx11-data libxau6 libxcb1 libxdmcp6 libxml2 libxpm4\r\n"
+    ],
+    [
+      0.0014,
+      "  libxslt1.1 nginx nginx-common nginx-full sgml-base ucf xml-core\r\n"
+    ],
+    [
+      0.042385,
+      "0 upgraded, 40 newly installed, 0 to remove and 1 not upgraded.\r\nNeed to get 18.7 MB of archives.\r\nAfter this operation, 59.3 MB of additional disk space will be used.\r\nGet:1 http://deb.debian.org/debian stretch/main amd64 libxau6 amd64 1:1.0.8-1 [20.7 kB]\r\n"
+    ],
+    [
+      0.020647,
+      "Get:2 http://deb.debian.org/debian stretch/main amd64 sgml-base all 1.29 [14.8 kB]\r\n"
+    ],
+    [
+      0.00488,
+      "Get:3 http://deb.debian.org/debian stretch/main amd64 libssl1.1 amd64 1.1.0f-3 [1342 kB]\r\n"
+    ],
+    [
+      0.564813,
+      "Get:4 http://deb.debian.org/debian stretch/main amd64 libicu57 amd64 57.1-6 [7701 kB]\r\n"
+    ],
+    [
+      3.306653,
+      "Get:5 http://deb.debian.org/debian stretch/main amd64 libxml2 amd64 2.9.4+dfsg1-2.2+deb9u1 [920 kB]\r\n"
+    ],
+    [
+      0.390418,
+      "Get:6 http://deb.debian.org/debian stretch/main amd64 ucf all 3.0036 [70.2 kB]\r\n"
+    ],
+    [
+      0.029908,
+      "Get:7 http://deb.debian.org/debian stretch/main amd64 fonts-dejavu-core all 2.37-1 [1068 kB]\r\n"
+    ],
+    [
+      0.459187,
+      "Get:8 http://deb.debian.org/debian stretch/main amd64 fontconfig-config all 2.11.0-6.7 [271 kB]\r\n"
+    ],
+    [
+      0.120278,
+      "Get:9 http://deb.debian.org/debian stretch/main amd64 geoip-database all 20170512-1 [2112 kB]\r\n"
+    ],
+    [
+      0.889874,
+      "Get:10 http://deb.debian.org/debian stretch/main amd64 libbsd0 amd64 0.8.3-1 [83.0 kB]\r\n"
+    ],
+    [
+      0.03318,
+      "Get:11 http://deb.debian.org/debian stretch/main amd64 libexpat1 amd64 2.2.0-2+deb9u1 [83.4 kB]\r\n"
+    ],
+    [
+      0.036583,
+      "Get:12 http://deb.debian.org/debian stretch/main amd64 libpng16-16 amd64 1.6.28-1 [280 kB]\r\n"
+    ],
+    [
+      0.124789,
+      "Get:13 http://deb.debian.org/debian stretch/main amd64 libfreetype6 amd64 2.6.3-3.2 [438 kB]\r\n"
+    ],
+    [
+      0.599539,
+      "Get:14 http://deb.debian.org/debian stretch/main amd64 libfontconfig1 amd64 2.11.0-6.7+b1 [331 kB]\r\n"
+    ],
+    [
+      0.036614,
+      "Get:15 http://deb.debian.org/debian stretch/main amd64 libjpeg62-turbo amd64 1:1.5.1-2 [134 kB]\r\nGet:16 http://deb.debian.org/debian stretch/main amd64 libjbig0 amd64 2.1-3.1+b2 [31.0 kB]\r\nGet:17 http://deb.debian.org/debian stretch/main amd64 libtiff5 amd64 4.0.8-2+deb9u1 [237 kB]\r\n"
+    ],
+    [
+      0.002841,
+      "Get:18 http://deb.debian.org/debian stretch/main amd64 libwebp6 amd64 0.5.2-1 [235 kB]\r\n"
+    ],
+    [
+      0.012378,
+      "Get:19 http://deb.debian.org/debian stretch/main amd64 libxdmcp6 amd64 1:1.1.2-3 [26.3 kB]\r\n"
+    ],
+    [
+      0.003147,
+      "Get:20 http://deb.debian.org/debian stretch/main amd64 libxcb1 amd64 1.12-1 [133 kB]\r\n"
+    ],
+    [
+      0.053022,
+      "Get:21 http://deb.debian.org/debian stretch/main amd64 libx11-data all 2:1.6.4-3 [290 kB]\r\n"
+    ],
+    [
+      0.115033,
+      "Get:22 http://deb.debian.org/debian stretch/main amd64 libx11-6 amd64 2:1.6.4-3 [747 kB]\r\n"
+    ],
+    [
+      0.320985,
+      "Get:23 http://deb.debian.org/debian stretch/main amd64 libxpm4 amd64 1:3.5.12-1 [49.1 kB]\r\n"
+    ],
+    [
+      0.030744,
+      "Get:24 http://deb.debian.org/debian stretch/main amd64 libgd3 amd64 2.2.4-2+deb9u2 [132 kB]\r\n"
+    ],
+    [
+      0.052654,
+      "Get:25 http://deb.debian.org/debian stretch/main amd64 libgeoip1 amd64 1.6.9-4 [90.5 kB]\r\n"
+    ],
+    [
+      0.038512,
+      "Get:26 http://deb.debian.org/debian stretch/main amd64 nginx-common all 1.10.3-1+deb9u1 [104 kB]\r\n"
+    ],
+    [
+      0.044035,
+      "Get:27 http://deb.debian.org/debian stretch/main amd64 libnginx-mod-http-auth-pam amd64 1.10.3-1+deb9u1 [85.8 kB]\r\n"
+    ],
+    [
+      0.042261,
+      "Get:28 http://deb.debian.org/debian stretch/main amd64 libnginx-mod-http-dav-ext amd64 1.10.3-1+deb9u1 [87.5 kB]\r\n"
+    ],
+    [
+      0.035197,
+      "Get:29 http://deb.debian.org/debian stretch/main amd64 libnginx-mod-http-echo amd64 1.10.3-1+deb9u1 [96.9 kB]\r\n"
+    ],
+    [
+      0.039997,
+      "Get:30 http://deb.debian.org/debian stretch/main amd64 libnginx-mod-http-geoip amd64 1.10.3-1+deb9u1 [87.0 kB]\r\n"
+    ],
+    [
+      0.036902,
+      "Get:31 http://deb.debian.org/debian stretch/main amd64 libnginx-mod-http-image-filter amd64 1.10.3-1+deb9u1 [89.9 kB]\r\n"
+    ],
+    [
+      0.042207,
+      "Get:32 http://deb.debian.org/debian stretch/main amd64 libnginx-mod-http-subs-filter amd64 1.10.3-1+deb9u1 [88.8 kB]\r\n"
+    ],
+    [
+      0.036881,
+      "Get:33 http://deb.debian.org/debian stretch/main amd64 libnginx-mod-http-upstream-fair amd64 1.10.3-1+deb9u1 [89.0 kB]\r\n"
+    ],
+    [
+      0.038511,
+      "Get:34 http://deb.debian.org/debian stretch/main amd64 libxslt1.1 amd64 1.1.29-2.1 [233 kB]\r\n"
+    ],
+    [
+      0.100253,
+      "Get:35 http://deb.debian.org/debian stretch/main amd64 libnginx-mod-http-xslt-filter amd64 1.10.3-1+deb9u1 [88.8 kB]\r\n"
+    ],
+    [
+      0.03995,
+      "Get:36 http://deb.debian.org/debian stretch/main amd64 libnginx-mod-mail amd64 1.10.3-1+deb9u1 [117 kB]\r\n"
+    ],
+    [
+      0.048151,
+      "Get:37 http://deb.debian.org/debian stretch/main amd64 libnginx-mod-stream amd64 1.10.3-1+deb9u1 [110 kB]\r\n"
+    ],
+    [
+      0.047008,
+      "Get:38 http://deb.debian.org/debian stretch/main amd64 nginx-full amd64 1.10.3-1+deb9u1 [458 kB]\r\n"
+    ],
+    [
+      0.201265,
+      "Get:39 http://deb.debian.org/debian stretch/main amd64 nginx all 1.10.3-1+deb9u1 [81.5 kB]\r\n"
+    ],
+    [
+      0.034359,
+      "Get:40 http://deb.debian.org/debian stretch/main amd64 xml-core all 0.17 [23.2 kB]\r\n"
+    ],
+    [
+      0.171696,
+      "\u001b[91mdebconf: delaying package configuration, since apt-utils is not installed\r\n\u001b[0m"
+    ],
+    [
+      0.041512,
+      "Fetched 18.7 MB in 8s (2316 kB/s)\r\n"
+    ],
+    [
+      0.059194,
+      "Selecting previously unselected package libxau6:amd64.\r\r\n(Reading database ... \r"
+    ],
+    [
+      0.001113,
+      "(Reading database ... 5%\r(Reading database ... 10%\r(Reading database ... 15%\r(Reading database ... 20%\r(Reading database ... 25%\r(Reading database ... 30%\r(Reading database ... 35%\r(Reading database ... 40%\r(Reading database ... 45%\r(Reading database ... 50%\r(Reading database ... 55%\r(Reading database ... 60%\r(Reading database ... 65%\r(Reading database ... 70%\r(Reading database ... 75%\r"
+    ],
+    [
+      0.001712,
+      "(Reading database ... 80%\r"
+    ],
+    [
+      0.001173,
+      "(Reading database ... 85%\r"
+    ],
+    [
+      0.001122,
+      "(Reading database ... 90%\r"
+    ],
+    [
+      0.001787,
+      "(Reading database ... 95%\r"
+    ],
+    [
+      0.00155,
+      "(Reading database ... 100%\r(Reading database ... 6490 files and directories currently installed.)\r\r\n"
+    ],
+    [
+      0.001624,
+      "Preparing to unpack .../00-libxau6_1%3a1.0.8-1_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.002917,
+      "Unpacking libxau6:amd64 (1:1.0.8-1) ...\r\r\n"
+    ],
+    [
+      0.104036,
+      "Selecting previously unselected package sgml-base.\r\r\n"
+    ],
+    [
+      0.00125,
+      "Preparing to unpack .../01-sgml-base_1.29_all.deb ...\r\r\n"
+    ],
+    [
+      0.014996,
+      "Unpacking sgml-base (1.29) ...\r\r\n"
+    ],
+    [
+      0.136554,
+      "Selecting previously unselected package libssl1.1:amd64.\r\r\n"
+    ],
+    [
+      0.001222,
+      "Preparing to unpack .../02-libssl1.1_1.1.0f-3_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.021874,
+      "Unpacking libssl1.1:amd64 (1.1.0f-3) ...\r\r\n"
+    ],
+    [
+      0.205862,
+      "Selecting previously unselected package libicu57:amd64.\r\r\n"
+    ],
+    [
+      0.001412,
+      "Preparing to unpack .../03-libicu57_57.1-6_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.008228,
+      "Unpacking libicu57:amd64 (57.1-6) ...\r\r\n"
+    ],
+    [
+      0.971731,
+      "Selecting previously unselected package libxml2:amd64.\r\r\n"
+    ],
+    [
+      0.001466,
+      "Preparing to unpack .../04-libxml2_2.9.4+dfsg1-2.2+deb9u1_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.008937,
+      "Unpacking libxml2:amd64 (2.9.4+dfsg1-2.2+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.185513,
+      "Selecting previously unselected package ucf.\r\r\n"
+    ],
+    [
+      0.00128,
+      "Preparing to unpack .../05-ucf_3.0036_all.deb ...\r\r\n"
+    ],
+    [
+      0.009512,
+      "Moving old data out of the way\r\r\n"
+    ],
+    [
+      0.002086,
+      "Unpacking ucf (3.0036) ...\r\r\n"
+    ],
+    [
+      0.071332,
+      "Selecting previously unselected package fonts-dejavu-core.\r\r\n"
+    ],
+    [
+      0.001237,
+      "Preparing to unpack .../06-fonts-dejavu-core_2.37-1_all.deb ...\r\r\n"
+    ],
+    [
+      0.00953,
+      "Unpacking fonts-dejavu-core (2.37-1) ...\r\r\n"
+    ],
+    [
+      0.243254,
+      "Selecting previously unselected package fontconfig-config.\r\r\n"
+    ],
+    [
+      0.001325,
+      "Preparing to unpack .../07-fontconfig-config_2.11.0-6.7_all.deb ...\r\r\n"
+    ],
+    [
+      0.165421,
+      "Unpacking fontconfig-config (2.11.0-6.7) ...\r\r\n"
+    ],
+    [
+      0.081779,
+      "Selecting previously unselected package geoip-database.\r\r\n"
+    ],
+    [
+      0.001416,
+      "Preparing to unpack .../08-geoip-database_20170512-1_all.deb ...\r\r\n"
+    ],
+    [
+      0.009536,
+      "Unpacking geoip-database (20170512-1) ...\r\r\n"
+    ],
+    [
+      0.353985,
+      "Selecting previously unselected package libbsd0:amd64.\r\r\n"
+    ],
+    [
+      0.001288,
+      "Preparing to unpack .../09-libbsd0_0.8.3-1_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.007948,
+      "Unpacking libbsd0:amd64 (0.8.3-1) ...\r\r\n"
+    ],
+    [
+      0.085286,
+      "Selecting previously unselected package libexpat1:amd64.\r\r\n"
+    ],
+    [
+      0.001169,
+      "Preparing to unpack .../10-libexpat1_2.2.0-2+deb9u1_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.008412,
+      "Unpacking libexpat1:amd64 (2.2.0-2+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.088742,
+      "Selecting previously unselected package libpng16-16:amd64.\r\r\n"
+    ],
+    [
+      0.001346,
+      "Preparing to unpack .../11-libpng16-16_1.6.28-1_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.008304,
+      "Unpacking libpng16-16:amd64 (1.6.28-1) ...\r\r\n"
+    ],
+    [
+      0.103038,
+      "Selecting previously unselected package libfreetype6:amd64.\r\r\n"
+    ],
+    [
+      0.001279,
+      "Preparing to unpack .../12-libfreetype6_2.6.3-3.2_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.00817,
+      "Unpacking libfreetype6:amd64 (2.6.3-3.2) ...\r\r\n"
+    ],
+    [
+      0.115383,
+      "Selecting previously unselected package libfontconfig1:amd64.\r\r\n"
+    ],
+    [
+      0.001465,
+      "Preparing to unpack .../13-libfontconfig1_2.11.0-6.7+b1_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.010647,
+      "Unpacking libfontconfig1:amd64 (2.11.0-6.7+b1) ...\r\r\n"
+    ],
+    [
+      0.1041,
+      "Selecting previously unselected package libjpeg62-turbo:amd64.\r\r\n"
+    ],
+    [
+      0.001085,
+      "Preparing to unpack .../14-libjpeg62-turbo_1%3a1.5.1-2_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.009426,
+      "Unpacking libjpeg62-turbo:amd64 (1:1.5.1-2) ...\r\r\n"
+    ],
+    [
+      0.097605,
+      "Selecting previously unselected package libjbig0:amd64.\r\r\n"
+    ],
+    [
+      0.001123,
+      "Preparing to unpack .../15-libjbig0_2.1-3.1+b2_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.007791,
+      "Unpacking libjbig0:amd64 (2.1-3.1+b2) ...\r\r\n"
+    ],
+    [
+      0.080713,
+      "Selecting previously unselected package libtiff5:amd64.\r\r\n"
+    ],
+    [
+      0.001223,
+      "Preparing to unpack .../16-libtiff5_4.0.8-2+deb9u1_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.008983,
+      "Unpacking libtiff5:amd64 (4.0.8-2+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.121804,
+      "Selecting previously unselected package libwebp6:amd64.\r\r\n"
+    ],
+    [
+      0.001187,
+      "Preparing to unpack .../17-libwebp6_0.5.2-1_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.009757,
+      "Unpacking libwebp6:amd64 (0.5.2-1) ...\r\r\n"
+    ],
+    [
+      0.104259,
+      "Selecting previously unselected package libxdmcp6:amd64.\r\r\n"
+    ],
+    [
+      0.001377,
+      "Preparing to unpack .../18-libxdmcp6_1%3a1.1.2-3_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.007837,
+      "Unpacking libxdmcp6:amd64 (1:1.1.2-3) ...\r\r\n"
+    ],
+    [
+      0.080072,
+      "Selecting previously unselected package libxcb1:amd64.\r\r\n"
+    ],
+    [
+      0.000934,
+      "Preparing to unpack .../19-libxcb1_1.12-1_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.008775,
+      "Unpacking libxcb1:amd64 (1.12-1) ...\r\r\n"
+    ],
+    [
+      0.075501,
+      "Selecting previously unselected package libx11-data.\r\r\n"
+    ],
+    [
+      0.001439,
+      "Preparing to unpack .../20-libx11-data_2%3a1.6.4-3_all.deb ...\r\r\n"
+    ],
+    [
+      0.009003,
+      "Unpacking libx11-data (2:1.6.4-3) ...\r\r\n"
+    ],
+    [
+      0.17878,
+      "Selecting previously unselected package libx11-6:amd64.\r\r\n"
+    ],
+    [
+      0.001487,
+      "Preparing to unpack .../21-libx11-6_2%3a1.6.4-3_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.007778,
+      "Unpacking libx11-6:amd64 (2:1.6.4-3) ...\r\r\n"
+    ],
+    [
+      0.14737,
+      "Selecting previously unselected package libxpm4:amd64.\r\r\n"
+    ],
+    [
+      0.001138,
+      "Preparing to unpack .../22-libxpm4_1%3a3.5.12-1_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.008593,
+      "Unpacking libxpm4:amd64 (1:3.5.12-1) ...\r\r\n"
+    ],
+    [
+      0.089955,
+      "Selecting previously unselected package libgd3:amd64.\r\r\n"
+    ],
+    [
+      0.000984,
+      "Preparing to unpack .../23-libgd3_2.2.4-2+deb9u2_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.00762,
+      "Unpacking libgd3:amd64 (2.2.4-2+deb9u2) ...\r\r\n"
+    ],
+    [
+      0.093323,
+      "Selecting previously unselected package libgeoip1:amd64.\r\r\n"
+    ],
+    [
+      0.001004,
+      "Preparing to unpack .../24-libgeoip1_1.6.9-4_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.007252,
+      "Unpacking libgeoip1:amd64 (1.6.9-4) ...\r\r\n"
+    ],
+    [
+      0.116457,
+      "Selecting previously unselected package nginx-common.\r\r\n"
+    ],
+    [
+      0.001213,
+      "Preparing to unpack .../25-nginx-common_1.10.3-1+deb9u1_all.deb ...\r\r\n"
+    ],
+    [
+      0.0385,
+      "Unpacking nginx-common (1.10.3-1+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.106692,
+      "Selecting previously unselected package libnginx-mod-http-auth-pam.\r\r\n"
+    ],
+    [
+      0.001253,
+      "Preparing to unpack .../26-libnginx-mod-http-auth-pam_1.10.3-1+deb9u1_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.008857,
+      "Unpacking libnginx-mod-http-auth-pam (1.10.3-1+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.095996,
+      "Selecting previously unselected package libnginx-mod-http-dav-ext.\r\r\n"
+    ],
+    [
+      0.000822,
+      "Preparing to unpack .../27-libnginx-mod-http-dav-ext_1.10.3-1+deb9u1_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.007767,
+      "Unpacking libnginx-mod-http-dav-ext (1.10.3-1+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.081878,
+      "Selecting previously unselected package libnginx-mod-http-echo.\r\r\n"
+    ],
+    [
+      0.001376,
+      "Preparing to unpack .../28-libnginx-mod-http-echo_1.10.3-1+deb9u1_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.00788,
+      "Unpacking libnginx-mod-http-echo (1.10.3-1+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.081121,
+      "Selecting previously unselected package libnginx-mod-http-geoip.\r\r\n"
+    ],
+    [
+      0.001886,
+      "Preparing to unpack .../29-libnginx-mod-http-geoip_1.10.3-1+deb9u1_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.008751,
+      "Unpacking libnginx-mod-http-geoip (1.10.3-1+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.091347,
+      "Selecting previously unselected package libnginx-mod-http-image-filter.\r\r\n"
+    ],
+    [
+      0.001242,
+      "Preparing to unpack .../30-libnginx-mod-http-image-filter_1.10.3-1+deb9u1_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.007756,
+      "Unpacking libnginx-mod-http-image-filter (1.10.3-1+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.094252,
+      "Selecting previously unselected package libnginx-mod-http-subs-filter.\r\r\n"
+    ],
+    [
+      0.001101,
+      "Preparing to unpack .../31-libnginx-mod-http-subs-filter_1.10.3-1+deb9u1_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.007514,
+      "Unpacking libnginx-mod-http-subs-filter (1.10.3-1+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.090186,
+      "Selecting previously unselected package libnginx-mod-http-upstream-fair.\r\r\n"
+    ],
+    [
+      0.001632,
+      "Preparing to unpack .../32-libnginx-mod-http-upstream-fair_1.10.3-1+deb9u1_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.00759,
+      "Unpacking libnginx-mod-http-upstream-fair (1.10.3-1+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.085065,
+      "Selecting previously unselected package libxslt1.1:amd64.\r\r\n"
+    ],
+    [
+      0.001624,
+      "Preparing to unpack .../33-libxslt1.1_1.1.29-2.1_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.008268,
+      "Unpacking libxslt1.1:amd64 (1.1.29-2.1) ...\r\r\n"
+    ],
+    [
+      0.111606,
+      "Selecting previously unselected package libnginx-mod-http-xslt-filter.\r\r\n"
+    ],
+    [
+      0.002987,
+      "Preparing to unpack .../34-libnginx-mod-http-xslt-filter_1.10.3-1+deb9u1_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.006395,
+      "Unpacking libnginx-mod-http-xslt-filter (1.10.3-1+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.089466,
+      "Selecting previously unselected package libnginx-mod-mail.\r\r\n"
+    ],
+    [
+      0.001732,
+      "Preparing to unpack .../35-libnginx-mod-mail_1.10.3-1+deb9u1_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.007886,
+      "Unpacking libnginx-mod-mail (1.10.3-1+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.090797,
+      "Selecting previously unselected package libnginx-mod-stream.\r\r\n"
+    ],
+    [
+      0.001646,
+      "Preparing to unpack .../36-libnginx-mod-stream_1.10.3-1+deb9u1_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.007803,
+      "Unpacking libnginx-mod-stream (1.10.3-1+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.097348,
+      "Selecting previously unselected package nginx-full.\r\r\n"
+    ],
+    [
+      0.001435,
+      "Preparing to unpack .../37-nginx-full_1.10.3-1+deb9u1_amd64.deb ...\r\r\n"
+    ],
+    [
+      0.008619,
+      "Unpacking nginx-full (1.10.3-1+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.117849,
+      "Selecting previously unselected package nginx.\r\r\n"
+    ],
+    [
+      0.001501,
+      "Preparing to unpack .../38-nginx_1.10.3-1+deb9u1_all.deb ...\r\r\n"
+    ],
+    [
+      0.008338,
+      "Unpacking nginx (1.10.3-1+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.12054,
+      "Selecting previously unselected package xml-core.\r\r\n"
+    ],
+    [
+      0.001232,
+      "Preparing to unpack .../39-xml-core_0.17_all.deb ...\r\r\n"
+    ],
+    [
+      0.010768,
+      "Unpacking xml-core (0.17) ...\r\r\n"
+    ],
+    [
+      0.081013,
+      "Setting up libexpat1:amd64 (2.2.0-2+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.023348,
+      "Setting up libjpeg62-turbo:amd64 (1:1.5.1-2) ...\r\r\n"
+    ],
+    [
+      0.03913,
+      "Setting up geoip-database (20170512-1) ...\r\r\n"
+    ],
+    [
+      0.026616,
+      "Setting up libpng16-16:amd64 (1.6.28-1) ...\r\r\n"
+    ],
+    [
+      0.036945,
+      "Setting up libjbig0:amd64 (2.1-3.1+b2) ...\r\r\n"
+    ],
+    [
+      0.030497,
+      "Setting up fonts-dejavu-core (2.37-1) ...\r\r\n"
+    ],
+    [
+      0.144566,
+      "Setting up nginx-common (1.10.3-1+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.26927,
+      "debconf: unable to initialize frontend: Dialog\r\r\ndebconf: (TERM is not set, so the dialog frontend is not usable.)\r\r\ndebconf: falling back to frontend: Readline\r\r\n"
+    ],
+    [
+      0.000603,
+      "debconf: unable to initialize frontend: Readline\r\r\ndebconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base .) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)\r\r\ndebconf: falling back to frontend: Teletype\r\r\n"
+    ],
+    [
+      0.208549,
+      "Setting up libnginx-mod-http-subs-filter (1.10.3-1+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.040116,
+      "Setting up libtiff5:amd64 (4.0.8-2+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.032181,
+      "Setting up sgml-base (1.29) ...\r\r\n"
+    ],
+    [
+      0.06843,
+      "Setting up libgeoip1:amd64 (1.6.9-4) ...\r\r\n"
+    ],
+    [
+      0.029595,
+      "Setting up libicu57:amd64 (57.1-6) ...\r\r\n"
+    ],
+    [
+      0.032524,
+      "Setting up libbsd0:amd64 (0.8.3-1) ...\r\r\n"
+    ],
+    [
+      0.036345,
+      "Setting up ucf (3.0036) ...\r\r\n"
+    ],
+    [
+      0.132806,
+      "debconf: unable to initialize frontend: Dialog\r\r\ndebconf: (TERM is not set, so the dialog frontend is not usable.)\r\r\ndebconf: falling back to frontend: Readline\r\r\n"
+    ],
+    [
+      0.000666,
+      "debconf: unable to initialize frontend: Readline\r\r\ndebconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base .) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)\r\r\ndebconf: falling back to frontend: Teletype\r\r\n"
+    ],
+    [
+      0.043048,
+      "Setting up libxml2:amd64 (2.9.4+dfsg1-2.2+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.03168,
+      "Setting up libfreetype6:amd64 (2.6.3-3.2) ...\r\r\n"
+    ],
+    [
+      0.0319,
+      "Setting up libxslt1.1:amd64 (1.1.29-2.1) ...\r\r\n"
+    ],
+    [
+      0.029981,
+      "Processing triggers for libc-bin (2.24-11+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.029241,
+      "Setting up libssl1.1:amd64 (1.1.0f-3) ...\r\r\n"
+    ],
+    [
+      0.123514,
+      "debconf: unable to initialize frontend: Dialog\r\r\ndebconf: (TERM is not set, so the dialog frontend is not usable.)\r\r\ndebconf: falling back to frontend: Readline\r\r\n"
+    ],
+    [
+      0.000814,
+      "debconf: unable to initialize frontend: Readline\r\r\ndebconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base .) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)\r\r\ndebconf: falling back to frontend: Teletype\r\r\n"
+    ],
+    [
+      0.048101,
+      "Setting up libnginx-mod-http-auth-pam (1.10.3-1+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.046175,
+      "Setting up libnginx-mod-http-dav-ext (1.10.3-1+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.039401,
+      "Setting up libnginx-mod-mail (1.10.3-1+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.050107,
+      "Setting up libnginx-mod-http-xslt-filter (1.10.3-1+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.039594,
+      "Setting up libnginx-mod-http-upstream-fair (1.10.3-1+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.04122,
+      "Setting up libxdmcp6:amd64 (1:1.1.2-3) ...\r\r\n"
+    ],
+    [
+      0.03277,
+      "Setting up xml-core (0.17) ...\r\r\n"
+    ],
+    [
+      0.250231,
+      "Setting up libnginx-mod-http-geoip (1.10.3-1+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.044788,
+      "Setting up libx11-data (2:1.6.4-3) ...\r\r\n"
+    ],
+    [
+      0.029034,
+      "Setting up libxau6:amd64 (1:1.0.8-1) ...\r\r\n"
+    ],
+    [
+      0.043156,
+      "Setting up libwebp6:amd64 (0.5.2-1) ...\r\r\n"
+    ],
+    [
+      0.032761,
+      "Setting up fontconfig-config (2.11.0-6.7) ...\r\r\n"
+    ],
+    [
+      0.123194,
+      "debconf: unable to initialize frontend: Dialog\r\r\ndebconf: (TERM is not set, so the dialog frontend is not usable.)\r\r\ndebconf: falling back to frontend: Readline\r\r\n"
+    ],
+    [
+      0.00125,
+      "debconf: unable to initialize frontend: Readline\r\r\ndebconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base .) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)\r\r\ndebconf: falling back to frontend: Teletype\r\r\n"
+    ],
+    [
+      0.183879,
+      "Setting up libnginx-mod-stream (1.10.3-1+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.045141,
+      "Setting up libnginx-mod-http-echo (1.10.3-1+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.0511,
+      "Setting up libxcb1:amd64 (1.12-1) ...\r\r\n"
+    ],
+    [
+      0.031941,
+      "Setting up libfontconfig1:amd64 (2.11.0-6.7+b1) ...\r\r\n"
+    ],
+    [
+      0.027902,
+      "Setting up libx11-6:amd64 (2:1.6.4-3) ...\r\r\n"
+    ],
+    [
+      0.032065,
+      "Setting up libxpm4:amd64 (1:3.5.12-1) ...\r\r\n"
+    ],
+    [
+      0.032769,
+      "Setting up libgd3:amd64 (2.2.4-2+deb9u2) ...\r\r\n"
+    ],
+    [
+      0.030066,
+      "Setting up libnginx-mod-http-image-filter (1.10.3-1+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.044991,
+      "Setting up nginx-full (1.10.3-1+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.02718,
+      "invoke-rc.d: could not determine current runlevel\r\r\n"
+    ],
+    [
+      0.006641,
+      "invoke-rc.d: policy-rc.d denied execution of start.\r\r\n"
+    ],
+    [
+      0.004617,
+      "Setting up nginx (1.10.3-1+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.03293,
+      "Processing triggers for libc-bin (2.24-11+deb9u1) ...\r\r\n"
+    ],
+    [
+      0.030809,
+      "Processing triggers for sgml-base (1.29) ...\r\r\n"
+    ],
+    [
+      1.079626,
+      " ---> 74eb94e428d1\r\n"
+    ],
+    [
+      0.074409,
+      "Removing intermediate container d1e9cedf2f7b\r\n"
+    ],
+    [
+      0.000251,
+      "Step 3/4 : EXPOSE 80\r\n"
+    ],
+    [
+      0.078543,
+      " ---> Running in e397559a831a\r\n"
+    ],
+    [
+      0.130959,
+      " ---> 22f39c4ed416\r\n"
+    ],
+    [
+      0.028316,
+      "Removing intermediate container e397559a831a\r\n"
+    ],
+    [
+      0.00066,
+      "Step 4/4 : CMD nginx -g daemon off;\r\n"
+    ],
+    [
+      0.084584,
+      " ---> Running in 2786e4e1b90b\r\n"
+    ],
+    [
+      0.134428,
+      " ---> 05f65d7fba67\r\n"
+    ],
+    [
+      0.025955,
+      "Removing intermediate container 2786e4e1b90b\r\n"
+    ],
+    [
+      0.000651,
+      "Successfully built 05f65d7fba67\r\n"
+    ],
+    [
+      0.016414,
+      "Successfully tagged nginx_test:latest\r\n"
+    ],
+    [
+      0.005442,
+      "bash-3.2$ "
+    ]
+  ]
+}
