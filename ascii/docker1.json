@@ -1,0 +1,2046 @@
+{
+  "version": 1,
+  "width": 318,
+  "height": 20,
+  "duration": 39.648244,
+  "command": "/bin/bash",
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/usr/local/bin/fish"
+  },
+  "stdout": [
+    [
+      0.026139,
+      "$ "
+    ],
+    [
+      1.125398,
+      "d"
+    ],
+    [
+      0.127872,
+      "o"
+    ],
+    [
+      0.104469,
+      "c"
+    ],
+    [
+      0.063884,
+      "k"
+    ],
+    [
+      0.063986,
+      "e"
+    ],
+    [
+      0.087935,
+      "r"
+    ],
+    [
+      0.055939,
+      " "
+    ],
+    [
+      0.135862,
+      "r"
+    ],
+    [
+      0.056105,
+      "u"
+    ],
+    [
+      0.047977,
+      "n"
+    ],
+    [
+      0.079842,
+      " "
+    ],
+    [
+      0.584184,
+      "-"
+    ],
+    [
+      0.136138,
+      "t"
+    ],
+    [
+      0.103423,
+      "i"
+    ],
+    [
+      0.064193,
+      " "
+    ],
+    [
+      0.160101,
+      "d"
+    ],
+    [
+      0.048117,
+      "e"
+    ],
+    [
+      0.055867,
+      "b"
+    ],
+    [
+      0.136124,
+      "i"
+    ],
+    [
+      0.143805,
+      "a"
+    ],
+    [
+      0.104256,
+      "n"
+    ],
+    [
+      0.072057,
+      " "
+    ],
+    [
+      0.471864,
+      "b"
+    ],
+    [
+      0.071864,
+      "a"
+    ],
+    [
+      0.056383,
+      "s"
+    ],
+    [
+      0.063718,
+      "h"
+    ],
+    [
+      0.064627,
+      "\r\n"
+    ],
+    [
+      0.080895,
+      "Unable to find image 'debian:latest' locally\r\n"
+    ],
+    [
+      1.502555,
+      "latest: Pulling from library/debian\r\n"
+    ],
+    [
+      0.694955,
+      "\r\n\u001b[1A\u001b[2K\r3e17c6eae66c: Pulling fs layer \r\u001b[1B"
+    ],
+    [
+      1.060529,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: "
+    ],
+    [
+      0.000261,
+      "Downloading [>                                                  ] 458.1 kB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.13822,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [==>                                                ] 1.834 MB/45.13 MB\r"
+    ],
+    [
+      1.9e-05,
+      "\u001b[1B"
+    ],
+    [
+      0.113304,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [===>                                               ] 3.211 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.105051,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [=====>                                             ] 4.587 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.104186,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [======>                                            ] 5.963 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.103909,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [========>                                          ] 7.339 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.103964,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [=========>                                         ] 8.716 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.114429,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [===========>                                       ] 10.09 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.127534,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [============>                                      ] 11.47 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.113549,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [=============>                                     ] 12.39 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.140407,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [===============>                                   ] 13.76 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.108662,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [================>                                  ] 14.68 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.105013,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [=================>                                 ]  15.6 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.143261,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [==================>                                ] 16.97 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.135259,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [====================>                              ] 18.35 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.135172,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [=====================>                             ] 19.73 MB/45.13 MB\r"
+    ],
+    [
+      2.6e-05,
+      "\u001b[1B"
+    ],
+    [
+      0.133987,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: "
+    ],
+    [
+      2.9e-05,
+      "Downloading [=======================>                           ]  21.1 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.104276,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [========================>                          ] 22.02 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.137071,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [=========================>                         ]  23.4 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.128833,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [===========================>                       ] 24.77 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.125454,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [============================>                      ] 26.15 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.099847,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [=============================>                     ] 27.07 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.135109,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [===============================>                   ] 28.44 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.125099,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [=================================>                 ] 29.82 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.135416,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [==================================>                ] 31.19 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.105568,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [===================================>               ] 32.11 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.145103,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [=====================================>             ] 33.49 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.126735,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [======================================>            ] 34.86 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.12391,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [========================================>          ] 36.24 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.131938,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [=========================================>         ] 37.62 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.116195,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [===========================================>       ] 38.99 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.120231,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [============================================>      ] 40.37 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.107524,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [==============================================>    ] 41.75 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.107271,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [===============================================>   ] 43.12 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.118246,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Downloading [=================================================> ]  44.5 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.051665,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Verifying Checksum \r\u001b[1B"
+    ],
+    [
+      2.8e-05,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Download complete \r\u001b[1B"
+    ],
+    [
+      0.074418,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Extracting [>                                                  ] 458.8 kB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.111677,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Extracting [===>                                               ] 3.211 MB/45.13 MB\r"
+    ],
+    [
+      2.4e-05,
+      "\u001b[1B"
+    ],
+    [
+      0.105005,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Extracting [=======>                                           ] 6.423 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.103397,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Extracting [==========>                                        ] 9.175 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.107349,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Extracting [=============>                                     ] 11.93 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.100223,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Extracting [================>                                  ] 14.68 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.108184,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Extracting [===================>                               ] 17.43 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.115947,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Extracting [======================>                            ] 20.64 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.103245,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Extracting [========================>                          ] 22.48 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.214998,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Extracting [=================================>                 ] 29.82 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.003374,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Extracting [===================================>               ] 31.65 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.112337,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Extracting [======================================>            ] 34.41 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.118325,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Extracting [=========================================>         ] 37.16 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.10108,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Extracting [===========================================>       ] 39.45 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.11427,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Extracting [==============================================>    ] 42.21 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.132882,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Extracting [================================================>  ] 44.04 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.111331,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Extracting [==================================================>] 45.13 MB/45.13 MB\r\u001b[1B"
+    ],
+    [
+      0.28152,
+      "\u001b[1A\u001b[2K\r3e17c6eae66c: Pull complete \r\u001b[1B"
+    ],
+    [
+      0.002899,
+      "Digest: sha256:2e43e863a4ab6e53caf87a37d01d8c144cdcb732ad1b944fcf45cbfd7248a02a\r\n"
+    ],
+    [
+      0.001838,
+      "Status: Downloaded newer image for debian:latest\r\n"
+    ],
+    [
+      0.367502,
+      "root@17036f9ebe4e:/# "
+    ],
+    [
+      0.007175,
+      "\r\u001b[Kroot@17036f9ebe4e:/# "
+    ],
+    [
+      0.862324,
+      "l"
+    ],
+    [
+      0.104522,
+      "s"
+    ],
+    [
+      0.039305,
+      " "
+    ],
+    [
+      0.096222,
+      "-"
+    ],
+    [
+      0.072168,
+      "a"
+    ],
+    [
+      0.111936,
+      "l"
+    ],
+    [
+      0.064677,
+      "\r\n"
+    ],
+    [
+      0.001583,
+      "total 72\r\ndrwxr-xr-x   1 root root 4096 Oct 25 07:36 .\r\ndrwxr-xr-x   1 root root 4096 Oct 25 07:36 ..\r\n-rwxr-xr-x   1 root root    0 Oct 25 07:36 .dockerenv\r\ndrwxr-xr-x   2 root root 4096 Oct  9 00:00 bin\r\ndrwxr-xr-x   2 root root 4096 Jul 13 13:04 boot\r\ndrwxr-xr-x   5 root root  360 Oct 25 07:36 dev\r\ndrwxr-xr-x   1 root root 4096 Oct 25 07:36 etc\r\ndrwxr-xr-x   2 root root 4096 Jul 13 13:04 home\r\ndrwxr-xr-x   8 root root 4096 Oct  9 00:00 lib\r\ndrwxr-xr-x   2 root root 4096 Oct  9 00:00 lib64\r\ndrwxr-xr-x   2 root root 4096 Oct  9 00:00 media\r\ndrwxr-xr-x   2 root root 4096 Oct  9 00:00 mnt\r\ndrwxr-xr-x   2 root root 4096 Oct  9 00:00 opt\r\ndr-xr-xr-x 147 root root    0 Oct 25 07:36 proc\r\ndrwx------   2 root root 4096 Oct  9 00:00 root\r\ndrwxr-xr-x   4 root root 4096 Oct  9 00:00 run\r\ndrwxr-xr-x   2 root root 4096 Oct  9 00:00 sbin\r\ndrwxr-xr-x   2 root root 4096 Oct  9 00:00 srv\r\ndr-xr-xr-x  13 root root    0 Oct 25 07:36 sys\r\ndrwxrwxrwt   2 root root 4096 Oct  9 00:00 tmp\r\ndrwxr-xr-x  10 root root 4096 Oct  9 00:0"
+    ],
+    [
+      9.2e-05,
+      "0 usr\r\ndrwxr-xr-x  11 root root 4096 Oct  9 00:00 var\r\nroot@17036f9ebe4e:/# "
+    ],
+    [
+      1.413155,
+      "a"
+    ],
+    [
+      0.256512,
+      "p"
+    ],
+    [
+      0.103236,
+      "t"
+    ],
+    [
+      0.136521,
+      "-"
+    ],
+    [
+      0.080062,
+      "g"
+    ],
+    [
+      0.087968,
+      "e"
+    ],
+    [
+      0.096272,
+      "t"
+    ],
+    [
+      0.119746,
+      " "
+    ],
+    [
+      0.136142,
+      "u"
+    ],
+    [
+      0.047651,
+      "p"
+    ],
+    [
+      0.144409,
+      "d"
+    ],
+    [
+      0.055805,
+      "a"
+    ],
+    [
+      0.136063,
+      "t"
+    ],
+    [
+      0.071856,
+      "e"
+    ],
+    [
+      0.136359,
+      "\r\n"
+    ],
+    [
+      0.011351,
+      "\r0% [Working]"
+    ],
+    [
+      0.050949,
+      "\r            \rGet:1 http://security.debian.org stretch/updates InRelease [62.9 kB]\r\n\r0% [Connecting to prod.debian.map.fastly.net (151.101.112.204)] [1 InRelease 2476 B/62.9 kB 4%]"
+    ],
+    [
+      0.006313,
+      "\r                                                                                               \rIgn:2 http://deb.debian.org/debian stretch InRelease\r\n\r                                                                                               \r0% [1 InRelease 14.1 kB/62.9 kB 22%]"
+    ],
+    [
+      0.005513,
+      "\r                                    \rGet:3 http://deb.debian.org/debian stretch-updates InRelease [91.0 kB]\r\n\r0% [3 InRelease 0 B/91.0 kB 0%] [1 InRelease 38.7 kB/62.9 kB 61%]"
+    ],
+    [
+      0.013965,
+      "\r                                                                 \r0% [3 InRelease 40.3 kB/91.0 kB 44%]"
+    ],
+    [
+      0.001142,
+      "\r0% [1 InRelease gpgv 62.9 kB] [3 InRelease 90.9 kB/91.0 kB 100%]"
+    ],
+    [
+      0.002253,
+      "\r                                                                \r0% [1 InRelease gpgv 62.9 kB]"
+    ],
+    [
+      0.004925,
+      "\r                             \rGet:4 http://deb.debian.org/debian stretch Release [118 kB]\r\n\r0% [1 InRelease gpgv 62.9 kB] [4 Release 0 B/118 kB 0%]"
+    ],
+    [
+      0.006164,
+      "\r                                                       \r0% [1 InRelease gpgv 62.9 kB]"
+    ],
+    [
+      0.004779,
+      "\r                             \rGet:5 http://deb.debian.org/debian stretch Release.gpg [2479 B]\r\n\r0% [1 InRelease gpgv 62.9 kB] [5 Release.gpg 0 B/2479 B 0%]"
+    ],
+    [
+      0.000324,
+      "\r                                                           \r0% [1 InRelease gpgv 62.9 kB]"
+    ],
+    [
+      0.057234,
+      "\r                             \r0% [Working]"
+    ],
+    [
+      0.000492,
+      "\r0% [3 InRelease gpgv 91.0 kB] [Waiting for headers]"
+    ],
+    [
+      0.008334,
+      "\r                                                   \rGet:6 http://security.debian.org stretch/updates/main amd64 Packages [227 kB]\r\n\r0% [3 InRelease gpgv 91.0 kB] [6 Packages 2440 B/227 kB 1%]"
+    ],
+    [
+      0.026061,
+      "\r                                                           \r0% [3 InRelease gpgv 91.0 kB]"
+    ],
+    [
+      0.002141,
+      "\r0% [6 Packages store 0 B] [3 InRelease gpgv 91.0 kB]"
+    ],
+    [
+      0.018028,
+      "\r                                                    \r0% [3 InRelease gpgv 91.0 kB]"
+    ],
+    [
+      0.027862,
+      "\r                             \r0% [Working]"
+    ],
+    [
+      0.000466,
+      "\r0% [5 Release.gpg gpgv 118 kB] [Waiting for headers]"
+    ],
+    [
+      0.005847,
+      "\r                                                    \rGet:7 http://deb.debian.org/debian stretch-updates/main amd64 Packages [5841 B]\r\n"
+    ],
+    [
+      0.000186,
+      "\r                                                    \r0% [5 Release.gpg gpgv 118 kB]"
+    ],
+    [
+      0.000218,
+      "\r0% [7 Packages store 0 B] [5 Release.gpg gpgv 118 kB]"
+    ],
+    [
+      0.000757,
+      "\r                                                     \r0% [5 Release.gpg gpgv 118 kB]"
+    ],
+    [
+      0.064491,
+      "\r                              \r22% [Working]"
+    ],
+    [
+      0.006055,
+      "\r             \rGet:8 http://deb.debian.org/debian stretch/main amd64 Packages [9500 kB]"
+    ],
+    [
+      0.000167,
+      "\r\n"
+    ],
+    [
+      0.000447,
+      "\r22% [8 Packages 5464 B/9500 kB 0%]"
+    ],
+    [
+      0.457363,
+      "\r                                  \r98% [Working]"
+    ],
+    [
+      4.7e-05,
+      "\r98% [8 Packages store 0 B]"
+    ],
+    [
+      0.469933,
+      "\r                          \r100% [Working]\r              \rFetched 10.0 MB in 1s (8056 kB/s)\r\n"
+    ],
+    [
+      0.007558,
+      "\rReading package lists... 0%\r"
+    ],
+    [
+      0.040645,
+      "\rReading package lists... 0%\r"
+    ],
+    [
+      0.023585,
+      "\rReading package lists... 1%\r"
+    ],
+    [
+      0.36003,
+      "\rReading package lists... 97%\r\rReading package lists... 97%\r"
+    ],
+    [
+      0.001294,
+      "\rReading package lists... 97%\r\rReading package lists... 97%\r"
+    ],
+    [
+      0.006171,
+      "\rReading package lists... 99%\r\rReading package lists... 99%\r"
+    ],
+    [
+      0.012867,
+      "\rReading package lists... Done\r\r\n"
+    ],
+    [
+      0.029318,
+      "root@17036f9ebe4e:/# "
+    ],
+    [
+      0.608413,
+      "a"
+    ],
+    [
+      0.063853,
+      "p"
+    ],
+    [
+      0.103968,
+      "t"
+    ],
+    [
+      0.087695,
+      "-"
+    ],
+    [
+      0.096262,
+      "g"
+    ],
+    [
+      0.056261,
+      "e"
+    ],
+    [
+      0.112058,
+      "t"
+    ],
+    [
+      0.064233,
+      " "
+    ],
+    [
+      0.215664,
+      "i"
+    ],
+    [
+      0.064024,
+      "n"
+    ],
+    [
+      0.063992,
+      "s"
+    ],
+    [
+      0.048023,
+      "t"
+    ],
+    [
+      0.096105,
+      "a"
+    ],
+    [
+      0.103739,
+      "l"
+    ],
+    [
+      0.12043,
+      "l"
+    ],
+    [
+      0.103652,
+      " "
+    ],
+    [
+      0.168125,
+      "a"
+    ],
+    [
+      0.19998,
+      "p"
+    ],
+    [
+      0.127831,
+      "a"
+    ],
+    [
+      0.104207,
+      "c"
+    ],
+    [
+      0.167853,
+      "h"
+    ],
+    [
+      0.136162,
+      "e"
+    ],
+    [
+      0.159947,
+      "2"
+    ],
+    [
+      0.091152,
+      "\r\n"
+    ],
+    [
+      0.007223,
+      "\rReading package lists... 0%\r"
+    ],
+    [
+      0.040123,
+      "\rReading package lists... 0%\r"
+    ],
+    [
+      0.022382,
+      "\rReading package lists... 1%\r"
+    ],
+    [
+      0.360053,
+      "\rReading package lists... 97%\r\rReading package lists... 97%\r"
+    ],
+    [
+      0.000935,
+      "\rReading package lists... 97%\r"
+    ],
+    [
+      7.9e-05,
+      "\rReading package lists... 97%\r"
+    ],
+    [
+      0.006162,
+      "\rReading package lists... 99%\r"
+    ],
+    [
+      1.7e-05,
+      "\rReading package lists... 99%\r"
+    ],
+    [
+      0.013302,
+      "\rReading package lists... Done\r\r\n"
+    ],
+    [
+      0.025728,
+      "\rBuilding dependency tree... 0%\r\rBuilding dependency tree... 0%\r"
+    ],
+    [
+      0.019417,
+      "\rBuilding dependency tree... 50%\r\rBuilding dependency tree... 50%\r"
+    ],
+    [
+      0.071984,
+      "\rBuilding dependency tree       \r\r\n\rReading state information... 0%\r\rReading state information... 1%\r\rReading state information... Done\r\r\n"
+    ],
+    [
+      0.096337,
+      "The following additional packages will be installed:\r\n"
+    ],
+    [
+      0.000197,
+      "  apache2-bin apache2-data apache2-utils bzip2 file libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap libexpat1 libffi6 libgdbm3 libgmp10 libgnutls30 libgpm2 libhogweed4 libicu57 libidn11 libldap-2.4-2 libldap-common liblua5.2-0 libmagic-mgc libmagic1 libncurses5 libnettle6 libnghttp2-14 libp11-kit0\r\n"
+    ],
+    [
+      0.0004,
+      "  libperl5.24 libprocps6 libsasl2-2 libsasl2-modules libsasl2-modules-db libsqlite3-0 libssl1.0.2 libssl1.1 libtasn1-6 libxml2 mime-support openssl perl perl-modules-5.24 procps psmisc rename sgml-base ssl-cert xml-core xz-utils\r\n"
+    ],
+    [
+      0.001424,
+      "Suggested packages:\r\n  www-browser apache2-doc apache2-suexec-pristine | apache2-suexec-custom bzip2-doc gnutls-bin gpm libsasl2-modules-gssapi-mit | libsasl2-modules-gssapi-heimdal libsasl2-modules-ldap libsasl2-modules-otp libsasl2-modules-sql ca-certificates perl-doc libterm-readline-gnu-perl | libterm-readline-perl-perl make\r\n  sgml-base-doc openssl-blacklist debhelper\r\n"
+    ],
+    [
+      0.27179,
+      "The following NEW packages will be installed:\r\n"
+    ],
+    [
+      0.000374,
+      "  apache2 apache2-bin apache2-data apache2-utils bzip2 file libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap libexpat1 libffi6 libgdbm3 libgmp10 libgnutls30 libgpm2 libhogweed4 libicu57 libidn11 libldap-2.4-2 libldap-common liblua5.2-0 libmagic-mgc libmagic1 libncurses5 libnettle6 libnghttp2-14\r\n"
+    ],
+    [
+      0.000827,
+      "  libp11-kit0 libperl5.24 libprocps6 libsasl2-2 libsasl2-modules libsasl2-modules-db libsqlite3-0 libssl1.0.2 libssl1.1 libtasn1-6 libxml2 mime-support openssl perl perl-modules-5.24 procps psmisc rename sgml-base ssl-cert xml-core xz-utils\r\n"
+    ],
+    [
+      0.006561,
+      "0 upgraded, 49 newly installed, 0 to remove and 0 not upgraded.\r\nNeed to get 25.1 MB of archives.\r\nAfter this operation, 104 MB of additional disk space will be used.\r\n"
+    ],
+    [
+      9.9e-05,
+      "Do you want to continue? [Y/n] "
+    ],
+    [
+      0.843781,
+      "y"
+    ],
+    [
+      0.127672,
+      "\r\n"
+    ],
+    [
+      0.005979,
+      "\r0% [Working]"
+    ],
+    [
+      0.024159,
+      "\r            \rGet:1 http://deb.debian.org/debian stretch/main amd64 perl-modules-5.24 all 5.24.1-3+deb9u2 [2724 kB]\r\n\r0% [1 perl-modules-5.24 10.3 kB/2724 kB 0%]"
+    ],
+    [
+      0.120272,
+      "\r                                           \r9% [Working]"
+    ],
+    [
+      0.00565,
+      "\r            \rGet:2 http://deb.debian.org/debian stretch/main amd64 libgdbm3 amd64 1.8.3-14 [30.0 kB]\r\n\r9% [2 libgdbm3 5030 B/30.0 kB 17%]"
+    ],
+    [
+      0.001071,
+      "\r                                  \r10% [Waiting for headers]"
+    ],
+    [
+      0.00603,
+      "\r                         \rGet:3 http://deb.debian.org/debian stretch/main amd64 libperl5.24 amd64 5.24.1-3+deb9u2 [3538 kB]\r\n\r10% [3 libperl5.24 18.7 kB/3538 kB 1%]"
+    ],
+    [
+      0.138249,
+      "\r                                      \rGet:4 http://deb.debian.org/debian stretch/main amd64 perl amd64 5.24.1-3+deb9u2 [218 kB]\r\n\r                                      \r21% [4 perl 18.1 kB/218 kB 8%]"
+    ],
+    [
+      0.007231,
+      "\r                              \r22% [Working]\r             \rGet:5 http://deb.debian.org/debian stretch/main amd64 libncurses5 amd64 6.0+20161126-1+deb9u1 [93.5 kB]\r\n"
+    ],
+    [
+      9.9e-05,
+      "\r22% [5 libncurses5 14.0 kB/93.5 kB 15%]"
+    ],
+    [
+      0.004405,
+      "\r                                       \r23% [Waiting for headers]\r                         \rGet:6 http://deb.debian.org/debian stretch/main amd64 libprocps6 amd64 2:3.3.12-3 [58.1 kB]\r\n\r23% [6 libprocps6 11.3 kB/58.1 kB 19%]"
+    ],
+    [
+      0.001823,
+      "\r                                      \r24% [Waiting for headers]\r                         \rGet:7 http://deb.debian.org/debian stretch/main amd64 procps amd64 2:3.3.12-3 [249 kB]\r\n\r24% [7 procps 11.3 kB/249 kB 5%]"
+    ],
+    [
+      0.010831,
+      "\r                                \r25% [Waiting for headers]\r                         \rGet:8 http://deb.debian.org/debian stretch/main amd64 mime-support all 3.60 [36.7 kB]\r\n\r25% [8 mime-support 6925 B/36.7 kB 19%]"
+    ],
+    [
+      0.001325,
+      "\r                                       \rGet:9 http://deb.debian.org/debian stretch/main amd64 libapr1 amd64 1.5.2-5 [96.6 kB]\r\n\r                                       \r25% [9 libapr1 2773 B/96.6 kB 3%]"
+    ],
+    [
+      0.004435,
+      "\r                                 \rGet:10 http://deb.debian.org/debian stretch/main amd64 libexpat1 amd64 2.2.0-2+deb9u1 [83.4 kB]\r\n\r26% [10 libexpat1 12.9 kB/83.4 kB 15%]"
+    ],
+    [
+      0.002079,
+      "\r                                      \r27% [Waiting for headers]\r                         \rGet:11 http://deb.debian.org/debian stretch/main amd64 libssl1.1 amd64 1.1.0f-3 [1342 kB]\r\n\r27% [11 libssl1.1 17.5 kB/1342 kB 1%]"
+    ],
+    [
+      0.051937,
+      "\r                                     \r32% [Waiting for headers]\r                         \rGet:12 http://deb.debian.org/debian stretch/main amd64 libaprutil1 amd64 1.5.4-3 [85.8 kB]\r\n\r32% [12 libaprutil1 17.4 kB/85.8 kB 20%]"
+    ],
+    [
+      0.003204,
+      "\r                                        \r32% [Waiting for headers]\r                         \rGet:13 http://deb.debian.org/debian stretch/main amd64 libsqlite3-0 amd64 3.16.2-5 [572 kB]\r\n\r32% [13 libsqlite3-0 10.1 kB/572 kB 2%]"
+    ],
+    [
+      0.022766,
+      "\r                                       \r34% [Waiting for headers]\r                         \rGet:14 http://deb.debian.org/debian stretch/main amd64 libaprutil1-dbd-sqlite3 amd64 1.5.4-3 [19.3 kB]\r\n\r34% [14 libaprutil1-dbd-sqlite3 10.2 kB/19.3 kB 53%]"
+    ],
+    [
+      0.000425,
+      "\r                                                    \r35% [Waiting for headers]\r                         \rGet:15 http://deb.debian.org/debian stretch/main amd64 libgmp10 amd64 2:6.1.2+dfsg-1 [253 kB]\r\n\r35% [15 libgmp10 9544 B/253 kB 4%]"
+    ],
+    [
+      0.009957,
+      "\r                                  \r36% [Waiting for headers]\r                         \rGet:16 http://deb.debian.org/debian stretch/main amd64 libnettle6 amd64 3.3-1+b2 [192 kB]\r\n\r36% [16 libnettle6 11.9 kB/192 kB 6%]"
+    ],
+    [
+      0.007181,
+      "\r                                     \r37% [Waiting for headers]\r                         \rGet:17 http://deb.debian.org/debian stretch/main amd64 libhogweed4 amd64 3.3-1+b2 [136 kB]\r\n"
+    ],
+    [
+      0.000216,
+      "\r37% [17 libhogweed4 5374 B/136 kB 4%]"
+    ],
+    [
+      0.018971,
+      "\r                                     \r38% [Waiting for headers]\r                         \rGet:18 http://deb.debian.org/debian stretch/main amd64 libidn11 amd64 1.33-1 [115 kB]\r\n\r38% [18 libidn11 24.0 kB/115 kB 21%]"
+    ],
+    [
+      0.002894,
+      "\r                                    \r39% [Waiting for headers]\r                         \rGet:19 http://deb.debian.org/debian stretch/main amd64 libffi6 amd64 3.2.1-6 [20.4 kB]\r\n\r39% [19 libffi6 20.4 kB/20.4 kB 100%]\r                                     \r39% [Working]\r             \rGet:20 http://deb.debian.org/debian stretch/main amd64 libp11-kit0 amd64 0.23.3-2 [111 kB]\r\n\r39% [20 libp11-kit0 4096 B/111 kB 4%]"
+    ],
+    [
+      0.001415,
+      "\r                                     \r40% [Waiting for headers]\r                         \rGet:21 http://deb.debian.org/debian stretch/main amd64 libtasn1-6 amd64 4.10-1.1 [50.4 kB]\r\n\r40% [21 libtasn1-6 37.0 kB/50.4 kB 73%]"
+    ],
+    [
+      0.000822,
+      "\r                                       \r41% [Working]\r             \rGet:22 http://deb.debian.org/debian stretch/main amd64 libgnutls30 amd64 3.5.8-5+deb9u3 [895 kB]\r\n"
+    ],
+    [
+      0.000284,
+      "\r41% [22 libgnutls30 23.9 kB/895 kB 3%]"
+    ],
+    [
+      0.03294,
+      "\r                                      \r44% [Waiting for headers]\r                         \rGet:23 http://deb.debian.org/debian stretch/main amd64 libsasl2-modules-db amd64 2.1.27~101-g0780600+dfsg-3 [68.2 kB]\r\n\r44% [23 libsasl2-modules-db 16.8 kB/68.2 kB 25%]"
+    ],
+    [
+      0.00209,
+      "\r                                                \r44% [Waiting for headers]\r                         \rGet:24 http://deb.debian.org/debian stretch/main amd64 libsasl2-2 amd64 2.1.27~101-g0780600+dfsg-3 [105 kB]\r\n"
+    ],
+    [
+      0.000346,
+      "\r44% [24 libsasl2-2 10.5 kB/105 kB 10%]"
+    ],
+    [
+      0.004177,
+      "\r                                      \r45% [Waiting for headers]\r                         \rGet:25 http://deb.debian.org/debian stretch/main amd64 libldap-common all 2.4.44+dfsg-5+deb9u1 [85.4 kB]\r\n\r45% [25 libldap-common 10.1 kB/85.4 kB 12%]"
+    ],
+    [
+      0.003827,
+      "\r                                           \r46% [Waiting for headers]\r                         \rGet:26 http://deb.debian.org/debian stretch/main amd64 libldap-2.4-2 amd64 2.4.44+dfsg-5+deb9u1 [219 kB]\r\n\r46% [26 libldap-2.4-2 16.9 kB/219 kB 8%]"
+    ],
+    [
+      0.007563,
+      "\r                                        \r47% [Waiting for headers]\r                         \rGet:27 http://deb.debian.org/debian stretch/main amd64 libaprutil1-ldap amd64 1.5.4-3 [17.4 kB]\r\n\r47% [27 libaprutil1-ldap 7987 B/17.4 kB 46%]"
+    ],
+    [
+      0.000594,
+      "\r                                            \r47% [Waiting for headers]\r                         \rGet:28 http://deb.debian.org/debian stretch/main amd64 liblua5.2-0 amd64 5.2.4-1.1+b2 [110 kB]\r\n\r47% [28 liblua5.2-0 7933 B/110 kB 7%]"
+    ],
+    [
+      0.004346,
+      "\r                                     \r48% [Waiting for headers]\r                         \rGet:29 http://deb.debian.org/debian stretch/main amd64 libnghttp2-14 amd64 1.18.1-1 [79.1 kB]\r\n\r48% [29 libnghttp2-14 12.0 kB/79.1 kB 15%]"
+    ],
+    [
+      0.002999,
+      "\r                                          \r49% [Waiting for headers]\r                         \rGet:30 http://deb.debian.org/debian stretch/main amd64 libssl1.0.2 amd64 1.0.2l-2 [1294 kB]\r\n\r49% [30 libssl1.0.2 7181 B/1294 kB 1%]"
+    ],
+    [
+      0.050997,
+      "\r                                      \r53% [Waiting for headers]\r                         \rGet:31 http://deb.debian.org/debian stretch/main amd64 libicu57 amd64 57.1-6 [7701 kB]\r\n\r53% [31 libicu57 11.6 kB/7701 kB 0%]"
+    ],
+    [
+      0.302613,
+      "\r                                    \r78% [Waiting for headers]\r                         \rGet:32 http://deb.debian.org/debian stretch/main amd64 libxml2 amd64 2.9.4+dfsg1-2.2+deb9u1 [920 kB]\r\n\r78% [32 libxml2 21.9 kB/920 kB 2%]"
+    ],
+    [
+      0.035568,
+      "\r                                  \r82% [Waiting for headers]\r                         \rGet:33 http://deb.debian.org/debian stretch/main amd64 apache2-bin amd64 2.4.25-3+deb9u3 [1181 kB]\r\n\r82% [33 apache2-bin 19.0 kB/1181 kB 2%]"
+    ],
+    [
+      0.045396,
+      "\r                                       \r86% [Waiting for headers]\r                         \rGet:34 http://deb.debian.org/debian stretch/main amd64 apache2-utils amd64 2.4.25-3+deb9u3 [217 kB]\r\n\r86% [34 apache2-utils 11.6 kB/217 kB 5%]"
+    ],
+    [
+      0.008839,
+      "\r                                        \r87% [Waiting for headers]\r                         \rGet:35 http://deb.debian.org/debian stretch/main amd64 apache2-data all 2.4.25-3+deb9u3 [162 kB]\r\n\r87% [35 apache2-data 7698 B/162 kB 5%]"
+    ],
+    [
+      0.005581,
+      "\r                                      \r88% [Waiting for headers]\r                         \rGet:36 http://deb.debian.org/debian stretch/main amd64 apache2 amd64 2.4.25-3+deb9u3 [235 kB]\r\n\r88% [36 apache2 14.3 kB/235 kB 6%]"
+    ],
+    [
+      0.009546,
+      "\r                                  \r89% [Waiting for headers]\r                         \rGet:37 http://deb.debian.org/debian stretch/main amd64 sgml-base all 1.29 [14.8 kB]\r\n\r89% [37 sgml-base 14.8 kB/14.8 kB 100%]"
+    ],
+    [
+      0.000269,
+      "\r                                       \r90% [Working]\r             \rGet:38 http://deb.debian.org/debian stretch/main amd64 bzip2 amd64 1.0.6-8.1 [47.5 kB]\r\n\r90% [38 bzip2 11.4 kB/47.5 kB 24%]"
+    ],
+    [
+      0.001953,
+      "\r                                  \r90% [Waiting for headers]\r                         \rGet:39 http://deb.debian.org/debian stretch/main amd64 libmagic-mgc amd64 1:5.30-1+deb9u1 [222 kB]\r\n\r90% [39 libmagic-mgc 3964 B/222 kB 2%]"
+    ],
+    [
+      0.010375,
+      "\r                                      \r91% [Waiting for headers]\r                         \rGet:40 http://deb.debian.org/debian stretch/main amd64 libmagic1 amd64 1:5.30-1+deb9u1 [111 kB]\r\n\r91% [40 libmagic1 31.7 kB/111 kB 29%]"
+    ],
+    [
+      0.002513,
+      "\r                                     \r92% [Waiting for headers]\r                         \rGet:41 http://deb.debian.org/debian stretch/main amd64 file amd64 1:5.30-1+deb9u1 [64.1 kB]\r\n\r92% [41 file 13.1 kB/64.1 kB 20%]"
+    ],
+    [
+      0.002269,
+      "\r                                 \r93% [Waiting for headers]\r                         \rGet:42 http://deb.debian.org/debian stretch/main amd64 libgpm2 amd64 1.20.4-6.2+b1 [34.2 kB]\r\n\r93% [42 libgpm2 8100 B/34.2 kB 24%]"
+    ],
+    [
+      0.001209,
+      "\r                                   \r93% [Waiting for headers]\r                         \rGet:43 http://deb.debian.org/debian stretch/main amd64 xz-utils amd64 5.2.2-1.2+b1 [266 kB]\r\n\r93% [43 xz-utils 1848 B/266 kB 1%]"
+    ],
+    [
+      0.011423,
+      "\r                                  \r94% [Waiting for headers]\r                         \rGet:44 http://deb.debian.org/debian stretch/main amd64 libsasl2-modules amd64 2.1.27~101-g0780600+dfsg-3 [102 kB]\r\n\r94% [44 libsasl2-modules 7106 B/102 kB 7%]"
+    ],
+    [
+      0.003979,
+      "\r                                          \r95% [Waiting for headers]\r                         \rGet:45 http://deb.debian.org/debian stretch/main amd64 openssl amd64 1.1.0f-3 [725 kB]\r\n\r95% [45 openssl 13.6 kB/725 kB 2%]"
+    ],
+    [
+      0.027336,
+      "\r                                  \r98% [Waiting for headers]\r                         \rGet:46 http://deb.debian.org/debian stretch/main amd64 psmisc amd64 22.21-2.1+b2 [123 kB]\r\n\r98% [46 psmisc 10.5 kB/123 kB 9%]"
+    ],
+    [
+      0.005455,
+      "\r                                 \r99% [Waiting for headers]\r                         \rGet:47 http://deb.debian.org/debian stretch/main amd64 rename all 0.20-4 [12.5 kB]\r\n\r99% [47 rename 12.5 kB/12.5 kB 100%]"
+    ],
+    [
+      0.000339,
+      "\r                                    \r99% [Waiting for headers]\r                         \rGet:48 http://deb.debian.org/debian stretch/main amd64 ssl-cert all 1.0.39 [20.8 kB]\r\n"
+    ],
+    [
+      0.000165,
+      "\r99% [48 ssl-cert 20.8 kB/20.8 kB 100%]"
+    ],
+    [
+      0.000357,
+      "\r                                      \r100% [Waiting for headers]\r                          \rGet:49 http://deb.debian.org/debian stretch/main amd64 xml-core all 0.17 [23.2 kB]\r\n\r100% [49 xml-core 8190 B/23.2 kB 35%]"
+    ],
+    [
+      0.001038,
+      "\r                                     \r100% [Working]\r              \rFetched 25.1 MB in 1s (24.3 MB/s)\r\n"
+    ],
+    [
+      0.192588,
+      "debconf: delaying package configuration, since apt-utils is not installed\r\n"
+    ],
+    [
+      0.025072,
+      "Selecting previously unselected package perl-modules-5.24.\r\n(Reading database ... \r"
+    ],
+    [
+      0.00089,
+      "(Reading database ... 5%\r"
+    ],
+    [
+      0.000684,
+      "(Reading database ... 10%\r"
+    ],
+    [
+      0.000154,
+      "(Reading database ... 15%\r"
+    ],
+    [
+      0.000403,
+      "(Reading database ... 20%\r(Reading database ... 25%\r(Reading database ... 30%\r"
+    ],
+    [
+      0.000548,
+      "(Reading database ... 35%\r(Reading database ... 40%\r"
+    ],
+    [
+      0.000239,
+      "(Reading database ... 45%\r(Reading database ... 50%\r"
+    ],
+    [
+      4.9e-05,
+      "(Reading database ... 55%\r"
+    ],
+    [
+      0.000239,
+      "(Reading database ... 60%\r(Reading database ... 65%\r(Reading database ... 70%\r"
+    ],
+    [
+      0.000179,
+      "(Reading database ... 75%\r(Reading database ... 80%\r"
+    ],
+    [
+      0.000251,
+      "(Reading database ... 85%\r"
+    ],
+    [
+      0.00016,
+      "(Reading database ... 90%\r(Reading database ... 95%\r"
+    ],
+    [
+      0.000208,
+      "(Reading database ... 100%\r(Reading database ... 6490 files and directories currently installed.)\r\n"
+    ],
+    [
+      0.000466,
+      "Preparing to unpack .../00-perl-modules-5.24_5.24.1-3+deb9u2_all.deb ...\r\n"
+    ],
+    [
+      0.001842,
+      "Unpacking perl-modules-5.24 (5.24.1-3+deb9u2) ...\r\n"
+    ],
+    [
+      0.484562,
+      "Selecting previously unselected package libgdbm3:amd64.\r\n"
+    ],
+    [
+      0.001161,
+      "Preparing to unpack .../01-libgdbm3_1.8.3-14_amd64.deb ...\r\n"
+    ],
+    [
+      0.002964,
+      "Unpacking libgdbm3:amd64 (1.8.3-14) ...\r\n"
+    ],
+    [
+      0.020883,
+      "Selecting previously unselected package libperl5.24:amd64.\r\n"
+    ],
+    [
+      0.000931,
+      "Preparing to unpack .../02-libperl5.24_5.24.1-3+deb9u2_amd64.deb ...\r\n"
+    ],
+    [
+      0.001683,
+      "Unpacking libperl5.24:amd64 (5.24.1-3+deb9u2) ...\r\n"
+    ],
+    [
+      0.435413,
+      "Selecting previously unselected package perl.\r\n"
+    ],
+    [
+      0.00097,
+      "Preparing to unpack .../03-perl_5.24.1-3+deb9u2_amd64.deb ...\r\n"
+    ],
+    [
+      0.001572,
+      "Unpacking perl (5.24.1-3+deb9u2) ...\r\n"
+    ],
+    [
+      0.039755,
+      "Selecting previously unselected package libncurses5:amd64.\r\n"
+    ],
+    [
+      0.001,
+      "Preparing to unpack .../04-libncurses5_6.0+20161126-1+deb9u1_amd64.deb ...\r\n"
+    ],
+    [
+      0.002215,
+      "Unpacking libncurses5:amd64 (6.0+20161126-1+deb9u1) ...\r\n"
+    ],
+    [
+      0.027397,
+      "Selecting previously unselected package libprocps6:amd64.\r\n"
+    ],
+    [
+      0.001137,
+      "Preparing to unpack .../05-libprocps6_2%3a3.3.12-3_amd64.deb ...\r\n"
+    ],
+    [
+      0.002267,
+      "Unpacking libprocps6:amd64 (2:3.3.12-3) ...\r\n"
+    ],
+    [
+      0.024461,
+      "Selecting previously unselected package procps.\r\n"
+    ],
+    [
+      0.002622,
+      "Preparing to unpack .../06-procps_2%3a3.3.12-3_amd64.deb ...\r\n"
+    ],
+    [
+      0.003588,
+      "Unpacking procps (2:3.3.12-3) ...\r\n"
+    ],
+    [
+      0.053955,
+      "Selecting previously unselected package mime-support.\r\n"
+    ],
+    [
+      0.000955,
+      "Preparing to unpack .../07-mime-support_3.60_all.deb ...\r\n"
+    ],
+    [
+      0.001977,
+      "Unpacking mime-support (3.60) ...\r\n"
+    ],
+    [
+      0.028395,
+      "Selecting previously unselected package libapr1:amd64.\r\n"
+    ],
+    [
+      0.00113,
+      "Preparing to unpack .../08-libapr1_1.5.2-5_amd64.deb ...\r\n"
+    ],
+    [
+      0.002323,
+      "Unpacking libapr1:amd64 (1.5.2-5) ...\r\n"
+    ],
+    [
+      0.027792,
+      "Selecting previously unselected package libexpat1:amd64.\r\n"
+    ],
+    [
+      0.001279,
+      "Preparing to unpack .../09-libexpat1_2.2.0-2+deb9u1_amd64.deb ...\r\n"
+    ],
+    [
+      0.00208,
+      "Unpacking libexpat1:amd64 (2.2.0-2+deb9u1) ...\r\n"
+    ],
+    [
+      0.032999,
+      "Selecting previously unselected package libssl1.1:amd64.\r\n"
+    ],
+    [
+      0.001914,
+      "Preparing to unpack .../10-libssl1.1_1.1.0f-3_amd64.deb ...\r\n"
+    ],
+    [
+      0.002654,
+      "Unpacking libssl1.1:amd64 (1.1.0f-3) ...\r\n"
+    ],
+    [
+      0.11161,
+      "Selecting previously unselected package libaprutil1:amd64.\r\n"
+    ],
+    [
+      0.001176,
+      "Preparing to unpack .../11-libaprutil1_1.5.4-3_amd64.deb ...\r\n"
+    ],
+    [
+      0.001585,
+      "Unpacking libaprutil1:amd64 (1.5.4-3) ...\r\n"
+    ],
+    [
+      0.028516,
+      "Selecting previously unselected package libsqlite3-0:amd64.\r\n"
+    ],
+    [
+      0.001426,
+      "Preparing to unpack .../12-libsqlite3-0_3.16.2-5_amd64.deb ...\r\n"
+    ],
+    [
+      0.002246,
+      "Unpacking libsqlite3-0:amd64 (3.16.2-5) ...\r\n"
+    ],
+    [
+      0.06431,
+      "Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.\r\n"
+    ],
+    [
+      0.00107,
+      "Preparing to unpack .../13-libaprutil1-dbd-sqlite3_1.5.4-3_amd64.deb ...\r\n"
+    ],
+    [
+      0.001965,
+      "Unpacking libaprutil1-dbd-sqlite3:amd64 (1.5.4-3) ...\r\n"
+    ],
+    [
+      0.018349,
+      "Selecting previously unselected package libgmp10:amd64.\r\n"
+    ],
+    [
+      0.002811,
+      "Preparing to unpack .../14-libgmp10_2%3a6.1.2+dfsg-1_amd64.deb ...\r\n"
+    ],
+    [
+      0.001887,
+      "Unpacking libgmp10:amd64 (2:6.1.2+dfsg-1) ...\r\n"
+    ],
+    [
+      0.045232,
+      "Selecting previously unselected package libnettle6:amd64.\r\n"
+    ],
+    [
+      0.001019,
+      "Preparing to unpack .../15-libnettle6_3.3-1+b2_amd64.deb ...\r\n"
+    ],
+    [
+      0.001642,
+      "Unpacking libnettle6:amd64 (3.3-1+b2) ...\r\n"
+    ],
+    [
+      0.033093,
+      "Selecting previously unselected package libhogweed4:amd64.\r\n"
+    ],
+    [
+      0.000931,
+      "Preparing to unpack .../16-libhogweed4_3.3-1+b2_amd64.deb ...\r\n"
+    ],
+    [
+      0.001791,
+      "Unpacking libhogweed4:amd64 (3.3-1+b2) ...\r\n"
+    ],
+    [
+      0.034028,
+      "Selecting previously unselected package libidn11:amd64.\r\n"
+    ],
+    [
+      0.002756,
+      "Preparing to unpack .../17-libidn11_1.33-1_amd64.deb ...\r\n"
+    ],
+    [
+      0.001884,
+      "Unpacking libidn11:amd64 (1.33-1) ...\r\n"
+    ],
+    [
+      0.031721,
+      "Selecting previously unselected package libffi6:amd64.\r\n"
+    ],
+    [
+      0.00117,
+      "Preparing to unpack .../18-libffi6_3.2.1-6_amd64.deb ...\r\n"
+    ],
+    [
+      0.001911,
+      "Unpacking libffi6:amd64 (3.2.1-6) ...\r\n"
+    ],
+    [
+      0.02048,
+      "Selecting previously unselected package libp11-kit0:amd64.\r\n"
+    ],
+    [
+      0.001095,
+      "Preparing to unpack .../19-libp11-kit0_0.23.3-2_amd64.deb ...\r\n"
+    ],
+    [
+      0.003703,
+      "Unpacking libp11-kit0:amd64 (0.23.3-2) ...\r\n"
+    ],
+    [
+      0.034151,
+      "Selecting previously unselected package libtasn1-6:amd64.\r\n"
+    ],
+    [
+      0.001162,
+      "Preparing to unpack .../20-libtasn1-6_4.10-1.1_amd64.deb ...\r\n"
+    ],
+    [
+      0.001718,
+      "Unpacking libtasn1-6:amd64 (4.10-1.1) ...\r\n"
+    ],
+    [
+      0.023344,
+      "Selecting previously unselected package libgnutls30:amd64.\r\n"
+    ],
+    [
+      0.00102,
+      "Preparing to unpack .../21-libgnutls30_3.5.8-5+deb9u3_amd64.deb ...\r\n"
+    ],
+    [
+      0.003846,
+      "Unpacking libgnutls30:amd64 (3.5.8-5+deb9u3) ...\r\n"
+    ],
+    [
+      0.102189,
+      "Selecting previously unselected package libsasl2-modules-db:amd64.\r\n"
+    ],
+    [
+      0.001352,
+      "Preparing to unpack .../22-libsasl2-modules-db_2.1.27~101-g0780600+dfsg-3_amd64.deb ...\r\n"
+    ],
+    [
+      0.001871,
+      "Unpacking libsasl2-modules-db:amd64 (2.1.27~101-g0780600+dfsg-3) ...\r\n"
+    ],
+    [
+      0.025976,
+      "Selecting previously unselected package libsasl2-2:amd64.\r\n"
+    ],
+    [
+      0.00135,
+      "Preparing to unpack .../23-libsasl2-2_2.1.27~101-g0780600+dfsg-3_amd64.deb ...\r\n"
+    ],
+    [
+      0.002122,
+      "Unpacking libsasl2-2:amd64 (2.1.27~101-g0780600+dfsg-3) ...\r\n"
+    ],
+    [
+      0.027753,
+      "Selecting previously unselected package libldap-common.\r\n"
+    ],
+    [
+      0.001312,
+      "Preparing to unpack .../24-libldap-common_2.4.44+dfsg-5+deb9u1_all.deb ...\r\n"
+    ],
+    [
+      0.001936,
+      "Unpacking libldap-common (2.4.44+dfsg-5+deb9u1) ...\r\n"
+    ],
+    [
+      0.026495,
+      "Selecting previously unselected package libldap-2.4-2:amd64.\r\n"
+    ],
+    [
+      0.001248,
+      "Preparing to unpack .../25-libldap-2.4-2_2.4.44+dfsg-5+deb9u1_amd64.deb ...\r\n"
+    ],
+    [
+      0.002269,
+      "Unpacking libldap-2.4-2:amd64 (2.4.44+dfsg-5+deb9u1) ...\r\n"
+    ],
+    [
+      0.03714,
+      "Selecting previously unselected package libaprutil1-ldap:amd64.\r\n"
+    ],
+    [
+      0.000973,
+      "Preparing to unpack .../26-libaprutil1-ldap_1.5.4-3_amd64.deb ...\r\n"
+    ],
+    [
+      0.001892,
+      "Unpacking libaprutil1-ldap:amd64 (1.5.4-3) ...\r\n"
+    ],
+    [
+      0.021106,
+      "Selecting previously unselected package liblua5.2-0:amd64.\r\n"
+    ],
+    [
+      0.00128,
+      "Preparing to unpack .../27-liblua5.2-0_5.2.4-1.1+b2_amd64.deb ...\r\n"
+    ],
+    [
+      0.001899,
+      "Unpacking liblua5.2-0:amd64 (5.2.4-1.1+b2) ...\r\n"
+    ],
+    [
+      0.036465,
+      "Selecting previously unselected package libnghttp2-14:amd64.\r\n"
+    ],
+    [
+      0.00132,
+      "Preparing to unpack .../28-libnghttp2-14_1.18.1-1_amd64.deb ...\r\n"
+    ],
+    [
+      0.002673,
+      "Unpacking libnghttp2-14:amd64 (1.18.1-1) ...\r\n"
+    ],
+    [
+      0.031294,
+      "Selecting previously unselected package libssl1.0.2:amd64.\r\n"
+    ],
+    [
+      0.001203,
+      "Preparing to unpack .../29-libssl1.0.2_1.0.2l-2_amd64.deb ...\r\n"
+    ],
+    [
+      0.00209,
+      "Unpacking libssl1.0.2:amd64 (1.0.2l-2) ...\r\n"
+    ],
+    [
+      0.117439,
+      "Selecting previously unselected package libicu57:amd64.\r\n"
+    ],
+    [
+      0.001027,
+      "Preparing to unpack .../30-libicu57_57.1-6_amd64.deb ...\r\n"
+    ],
+    [
+      0.001987,
+      "Unpacking libicu57:amd64 (57.1-6) ...\r\n"
+    ],
+    [
+      0.742679,
+      "Selecting previously unselected package libxml2:amd64.\r\n"
+    ],
+    [
+      0.001086,
+      "Preparing to unpack .../31-libxml2_2.9.4+dfsg1-2.2+deb9u1_amd64.deb ...\r\n"
+    ],
+    [
+      0.002188,
+      "Unpacking libxml2:amd64 (2.9.4+dfsg1-2.2+deb9u1) ...\r\n"
+    ],
+    [
+      0.085332,
+      "Selecting previously unselected package apache2-bin.\r\n"
+    ],
+    [
+      0.001191,
+      "Preparing to unpack .../32-apache2-bin_2.4.25-3+deb9u3_amd64.deb ...\r\n"
+    ],
+    [
+      0.002043,
+      "Unpacking apache2-bin (2.4.25-3+deb9u3) ...\r\n"
+    ],
+    [
+      0.123329,
+      "Selecting previously unselected package apache2-utils.\r\n"
+    ],
+    [
+      0.001132,
+      "Preparing to unpack .../33-apache2-utils_2.4.25-3+deb9u3_amd64.deb ...\r\n"
+    ],
+    [
+      0.001764,
+      "Unpacking apache2-utils (2.4.25-3+deb9u3) ...\r\n"
+    ],
+    [
+      0.027932,
+      "Selecting previously unselected package apache2-data.\r\n"
+    ],
+    [
+      0.002058,
+      "Preparing to unpack .../34-apache2-data_2.4.25-3+deb9u3_all.deb ...\r\n"
+    ],
+    [
+      0.002631,
+      "Unpacking apache2-data (2.4.25-3+deb9u3) ...\r\n"
+    ],
+    [
+      0.086229,
+      "Selecting previously unselected package apache2.\r\n"
+    ],
+    [
+      0.001075,
+      "Preparing to unpack .../35-apache2_2.4.25-3+deb9u3_amd64.deb ...\r\n"
+    ],
+    [
+      0.010102,
+      "Unpacking apache2 (2.4.25-3+deb9u3) ...\r\n"
+    ],
+    [
+      0.059501,
+      "Selecting previously unselected package sgml-base.\r\n"
+    ],
+    [
+      0.001271,
+      "Preparing to unpack .../36-sgml-base_1.29_all.deb ...\r\n"
+    ],
+    [
+      0.004503,
+      "Unpacking sgml-base (1.29) ...\r\n"
+    ],
+    [
+      0.024199,
+      "Selecting previously unselected package bzip2.\r\n"
+    ],
+    [
+      0.001244,
+      "Preparing to unpack .../37-bzip2_1.0.6-8.1_amd64.deb ...\r\n"
+    ],
+    [
+      0.001869,
+      "Unpacking bzip2 (1.0.6-8.1) ...\r\n"
+    ],
+    [
+      0.023623,
+      "Selecting previously unselected package libmagic-mgc.\r\n"
+    ],
+    [
+      0.001169,
+      "Preparing to unpack .../38-libmagic-mgc_1%3a5.30-1+deb9u1_amd64.deb ...\r\n"
+    ],
+    [
+      0.003893,
+      "Unpacking libmagic-mgc (1:5.30-1+deb9u1) ...\r\n"
+    ],
+    [
+      0.086712,
+      "Selecting previously unselected package libmagic1:amd64.\r\n"
+    ],
+    [
+      0.001092,
+      "Preparing to unpack .../39-libmagic1_1%3a5.30-1+deb9u1_amd64.deb ...\r\n"
+    ],
+    [
+      0.001774,
+      "Unpacking libmagic1:amd64 (1:5.30-1+deb9u1) ...\r\n"
+    ],
+    [
+      0.027826,
+      "Selecting previously unselected package file.\r\n"
+    ],
+    [
+      0.001296,
+      "Preparing to unpack .../40-file_1%3a5.30-1+deb9u1_amd64.deb ...\r\n"
+    ],
+    [
+      0.001873,
+      "Unpacking file (1:5.30-1+deb9u1) ...\r\n"
+    ],
+    [
+      0.024608,
+      "Selecting previously unselected package libgpm2:amd64.\r\n"
+    ],
+    [
+      0.002919,
+      "Preparing to unpack .../41-libgpm2_1.20.4-6.2+b1_amd64.deb ...\r\n"
+    ],
+    [
+      0.002337,
+      "Unpacking libgpm2:amd64 (1.20.4-6.2+b1) ...\r\n"
+    ],
+    [
+      0.030304,
+      "Selecting previously unselected package xz-utils.\r\n"
+    ],
+    [
+      0.001807,
+      "Preparing to unpack .../42-xz-utils_5.2.2-1.2+b1_amd64.deb ...\r\n"
+    ],
+    [
+      0.002712,
+      "Unpacking xz-utils (5.2.2-1.2+b1) ...\r\n"
+    ],
+    [
+      0.046658,
+      "Selecting previously unselected package libsasl2-modules:amd64.\r\n"
+    ],
+    [
+      0.001959,
+      "Preparing to unpack .../43-libsasl2-modules_2.1.27~101-g0780600+dfsg-3_amd64.deb ...\r\n"
+    ],
+    [
+      0.002999,
+      "Unpacking libsasl2-modules:amd64 (2.1.27~101-g0780600+dfsg-3) ...\r\n"
+    ],
+    [
+      0.038458,
+      "Selecting previously unselected package openssl.\r\n"
+    ],
+    [
+      0.001439,
+      "Preparing to unpack .../44-openssl_1.1.0f-3_amd64.deb ...\r\n"
+    ],
+    [
+      0.002479,
+      "Unpacking openssl (1.1.0f-3) ...\r\n"
+    ],
+    [
+      0.073834,
+      "Selecting previously unselected package psmisc.\r\n"
+    ],
+    [
+      0.001167,
+      "Preparing to unpack .../45-psmisc_22.21-2.1+b2_amd64.deb ...\r\n"
+    ],
+    [
+      0.001875,
+      "Unpacking psmisc (22.21-2.1+b2) ...\r\n"
+    ],
+    [
+      0.040156,
+      "Selecting previously unselected package rename.\r\n"
+    ],
+    [
+      0.001303,
+      "Preparing to unpack .../46-rename_0.20-4_all.deb ...\r\n"
+    ],
+    [
+      0.003131,
+      "Unpacking rename (0.20-4) ...\r\n"
+    ],
+    [
+      0.02884,
+      "Selecting previously unselected package ssl-cert.\r\n"
+    ],
+    [
+      0.001628,
+      "Preparing to unpack .../47-ssl-cert_1.0.39_all.deb ...\r\n"
+    ],
+    [
+      0.003004,
+      "Unpacking ssl-cert (1.0.39) ...\r\n"
+    ],
+    [
+      0.026591,
+      "Selecting previously unselected package xml-core.\r\n"
+    ],
+    [
+      0.002241,
+      "Preparing to unpack .../48-xml-core_0.17_all.deb ...\r\n"
+    ],
+    [
+      0.004597,
+      "Unpacking xml-core (0.17) ...\r\n"
+    ],
+    [
+      0.040451,
+      "Setting up libncurses5:amd64 (6.0+20161126-1+deb9u1) ...\r\n"
+    ],
+    [
+      0.00847,
+      "Setting up libapr1:amd64 (1.5.2-5) ...\r\n"
+    ],
+    [
+      0.006264,
+      "Setting up perl-modules-5.24 (5.24.1-3+deb9u2) ...\r\n"
+    ],
+    [
+      0.006413,
+      "Setting up libgdbm3:amd64 (1.8.3-14) ...\r\n"
+    ],
+    [
+      0.00568,
+      "Setting up libperl5.24:amd64 (5.24.1-3+deb9u2) ...\r\n"
+    ],
+    [
+      0.004512,
+      "Setting up libnettle6:amd64 (3.3-1+b2) ...\r\n"
+    ],
+    [
+      0.006771,
+      "Setting up libexpat1:amd64 (2.2.0-2+deb9u1) ...\r\n"
+    ],
+    [
+      0.007222,
+      "Setting up psmisc (22.21-2.1+b2) ...\r\n"
+    ],
+    [
+      0.011761,
+      "Setting up libnghttp2-14:amd64 (1.18.1-1) ...\r\n"
+    ],
+    [
+      0.009289,
+      "Setting up mime-support (3.60) ...\r\n"
+    ],
+    [
+      0.019681,
+      "Setting up libgpm2:amd64 (1.20.4-6.2+b1) ...\r\n"
+    ],
+    [
+      0.009016,
+      "Setting up libldap-common (2.4.44+dfsg-5+deb9u1) ...\r\n"
+    ],
+    [
+      0.010424,
+      "Setting up libsasl2-modules-db:amd64 (2.1.27~101-g0780600+dfsg-3) ...\r\n"
+    ],
+    [
+      0.004808,
+      "Setting up libsasl2-2:amd64 (2.1.27~101-g0780600+dfsg-3) ...\r\n"
+    ],
+    [
+      0.00472,
+      "Setting up apache2-data (2.4.25-3+deb9u3) ...\r\n"
+    ],
+    [
+      0.007009,
+      "Setting up sgml-base (1.29) ...\r\n"
+    ],
+    [
+      0.035559,
+      "Setting up libicu57:amd64 (57.1-6) ...\r\n"
+    ],
+    [
+      0.009207,
+      "Setting up libprocps6:amd64 (2:3.3.12-3) ...\r\n"
+    ],
+    [
+      0.007422,
+      "Setting up libxml2:amd64 (2.9.4+dfsg1-2.2+deb9u1) ...\r\n"
+    ],
+    [
+      0.008101,
+      "Setting up libtasn1-6:amd64 (4.10-1.1) ...\r\n"
+    ],
+    [
+      0.00726,
+      "Setting up libmagic-mgc (1:5.30-1+deb9u1) ...\r\n"
+    ],
+    [
+      0.00433,
+      "Setting up bzip2 (1.0.6-8.1) ...\r\n"
+    ],
+    [
+      0.004785,
+      "Setting up libmagic1:amd64 (1:5.30-1+deb9u1) ...\r\n"
+    ],
+    [
+      0.012532,
+      "Setting up procps (2:3.3.12-3) ...\r\n"
+    ],
+    [
+      0.019058,
+      "update-alternatives: using /usr/bin/w.procps to provide /usr/bin/w (w) in auto mode\r\n"
+    ],
+    [
+      0.020869,
+      "Setting up perl (5.24.1-3+deb9u2) ...\r\n"
+    ],
+    [
+      0.014347,
+      "update-alternatives: using /usr/bin/prename to provide /usr/bin/rename (rename) in auto mode\r\n"
+    ],
+    [
+      0.007014,
+      "Setting up libssl1.0.2:amd64 (1.0.2l-2) ...\r\n"
+    ],
+    [
+      0.079408,
+      "debconf: unable to initialize frontend: Dialog\r\ndebconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 76.)\r\ndebconf: falling back to frontend: Readline\r\n"
+    ],
+    [
+      0.041934,
+      "Setting up libgmp10:amd64 (2:6.1.2+dfsg-1) ...\r\n"
+    ],
+    [
+      0.006185,
+      "Processing triggers for libc-bin (2.24-11+deb9u1) ...\r\n"
+    ],
+    [
+      0.011249,
+      "Setting up libssl1.1:amd64 (1.1.0f-3) ...\r\n"
+    ],
+    [
+      0.076737,
+      "debconf: unable to initialize frontend: Dialog\r\ndebconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 76.)\r\ndebconf: falling back to frontend: Readline\r\n"
+    ],
+    [
+      0.035224,
+      "Setting up xz-utils (5.2.2-1.2+b1) ...\r\n"
+    ],
+    [
+      0.005321,
+      "update-alternatives: using /usr/bin/xz to provide /usr/bin/lzma (lzma) in auto mode\r\n"
+    ],
+    [
+      0.004168,
+      "Setting up libaprutil1:amd64 (1.5.4-3) ...\r\n"
+    ],
+    [
+      0.005068,
+      "Setting up openssl (1.1.0f-3) ...\r\n"
+    ],
+    [
+      0.011203,
+      "Setting up libsqlite3-0:amd64 (3.16.2-5) ...\r\n"
+    ],
+    [
+      0.007204,
+      "Setting up libffi6:amd64 (3.2.1-6) ...\r\n"
+    ],
+    [
+      0.005593,
+      "Setting up liblua5.2-0:amd64 (5.2.4-1.1+b2) ...\r\n"
+    ],
+    [
+      0.005673,
+      "Setting up xml-core (0.17) ...\r\n"
+    ],
+    [
+      0.152496,
+      "Setting up libsasl2-modules:amd64 (2.1.27~101-g0780600+dfsg-3) ...\r\n"
+    ],
+    [
+      0.009628,
+      "Setting up libidn11:amd64 (1.33-1) ...\r\n"
+    ],
+    [
+      0.005215,
+      "Setting up libaprutil1-dbd-sqlite3:amd64 (1.5.4-3) ...\r\n"
+    ],
+    [
+      0.006936,
+      "Setting up rename (0.20-4) ...\r\n"
+    ],
+    [
+      0.004324,
+      "update-alternatives: using /usr/bin/file-rename to provide /usr/bin/rename (rename) in auto mode\r\n"
+    ],
+    [
+      0.003334,
+      "Setting up apache2-utils (2.4.25-3+deb9u3) ...\r\n"
+    ],
+    [
+      0.006432,
+      "Setting up ssl-cert (1.0.39) ...\r\n"
+    ],
+    [
+      0.073249,
+      "debconf: unable to initialize frontend: Dialog\r\ndebconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 76.)\r\ndebconf: falling back to frontend: Readline\r\n"
+    ],
+    [
+      0.187962,
+      "Setting up file (1:5.30-1+deb9u1) ...\r\n"
+    ],
+    [
+      0.004832,
+      "Setting up libhogweed4:amd64 (3.3-1+b2) ...\r\n"
+    ],
+    [
+      0.004754,
+      "Setting up libp11-kit0:amd64 (0.23.3-2) ...\r\n"
+    ],
+    [
+      0.00534,
+      "Setting up libgnutls30:amd64 (3.5.8-5+deb9u3) ...\r\n"
+    ],
+    [
+      0.005271,
+      "Setting up libldap-2.4-2:amd64 (2.4.44+dfsg-5+deb9u1) ...\r\n"
+    ],
+    [
+      0.006793,
+      "Setting up libaprutil1-ldap:amd64 (1.5.4-3) ...\r\n"
+    ],
+    [
+      0.004432,
+      "Setting up apache2-bin (2.4.25-3+deb9u3) ...\r\n"
+    ],
+    [
+      0.007104,
+      "Setting up apache2 (2.4.25-3+deb9u3) ...\r\n"
+    ],
+    [
+      0.311016,
+      "Enabling module mpm_event.\r\n"
+    ],
+    [
+      0.02875,
+      "Enabling module authz_core.\r\n"
+    ],
+    [
+      0.003852,
+      "Enabling module authz_host.\r\n"
+    ],
+    [
+      0.028086,
+      "Enabling module authn_core.\r\n"
+    ],
+    [
+      0.005748,
+      "Enabling module auth_basic.\r\n"
+    ],
+    [
+      0.029287,
+      "Enabling module access_compat.\r\n"
+    ],
+    [
+      0.030631,
+      "Enabling module authn_file.\r\n"
+    ],
+    [
+      0.03262,
+      "Enabling module authz_user.\r\n"
+    ],
+    [
+      0.030025,
+      "Enabling module alias.\r\n"
+    ],
+    [
+      0.029624,
+      "Enabling module dir.\r\n"
+    ],
+    [
+      0.029036,
+      "Enabling module autoindex.\r\n"
+    ],
+    [
+      0.03061,
+      "Enabling module env.\r\n"
+    ],
+    [
+      0.031454,
+      "Enabling module mime.\r\n"
+    ],
+    [
+      0.029723,
+      "Enabling module negotiation.\r\n"
+    ],
+    [
+      0.028247,
+      "Enabling module setenvif.\r\n"
+    ],
+    [
+      0.033731,
+      "Enabling module filter.\r\n"
+    ],
+    [
+      0.031345,
+      "Enabling module deflate.\r\n"
+    ],
+    [
+      0.031469,
+      "Enabling module status.\r\n"
+    ],
+    [
+      0.031668,
+      "Enabling module reqtimeout.\r\n"
+    ],
+    [
+      0.03119,
+      "Enabling conf charset.\r\n"
+    ],
+    [
+      0.030443,
+      "Enabling conf localized-error-pages.\r\n"
+    ],
+    [
+      0.027413,
+      "Enabling conf other-vhosts-access-log.\r\n"
+    ],
+    [
+      0.028065,
+      "Enabling conf security.\r\n"
+    ],
+    [
+      0.026075,
+      "Enabling conf serve-cgi-bin.\r\n"
+    ],
+    [
+      0.025665,
+      "Enabling site 000-default.\r\n"
+    ],
+    [
+      0.219415,
+      "invoke-rc.d: could not determine current runlevel\r\n"
+    ],
+    [
+      0.002704,
+      "invoke-rc.d: policy-rc.d denied execution of start.\r\n"
+    ],
+    [
+      0.091813,
+      "Processing triggers for libc-bin (2.24-11+deb9u1) ...\r\n"
+    ],
+    [
+      0.007506,
+      "Processing triggers for sgml-base (1.29) ...\r\n"
+    ],
+    [
+      0.040807,
+      "root@17036f9ebe4e:/# "
+    ]
+  ]
+}
